@@ -5,6 +5,7 @@ import 'minireset.css/minireset.css';
 import './typography.css';
 
 import { Header } from './Header.js';
+import { About } from './About.js';
 import { BG_COLOR } from './ui.js';
 
 const AppContainer = styled.div`
@@ -25,6 +26,7 @@ class App extends React.Component {
           <meta name="theme-color" content={BG_COLOR} />
         </Head>
         <Header />
+        <About />
       </AppContainer>
     );
   }

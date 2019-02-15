@@ -17,7 +17,7 @@ const Sun = styled.img`
   right: 0;
   top: 0;
   margin: 0 auto;
-  max-height: 240px;
+  max-height: 225px;
 `;
 
 const HeaderText = styled.div`
