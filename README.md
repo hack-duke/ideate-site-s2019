@@ -1,3 +1,17 @@
-# React-Static - Blank Template
+# ideate-site-s2019
 
-To use this template, run `react-static create` and select the `blank` template.
+[![Netlify Status](https://api.netlify.com/api/v1/badges/de00edb4-5aaf-4bd7-8268-98419100a5bb/deploy-status)](https://app.netlify.com/sites/ideate-s19/deploys)
+
+Website for HackDuke's Spring 2019 IDEATE event
+
+# Running
+
+    npm run start
+
+# Building
+
+    npm run build
+
+# Contributing
+
+Please have [Prettier](https://prettier.io/) integration configured for your text editor, and set it to format on save.
