@@ -18,7 +18,7 @@ const SectionContent = styled.div`
 const SectionWrapper = styled.div`
   display: flex;
   flex-direction: column;
-  padding: 40px 0;
+  padding: 40px 24px;
 `;
 
 export const Section = ({ title, children }) => (

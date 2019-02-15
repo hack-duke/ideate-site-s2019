@@ -24,6 +24,7 @@ const HeaderText = styled.div`
   margin: auto;
   text-align: center;
   z-index: 5;
+  padding: 0 24px;
 `;
 
 const IdeateTitle = styled.h1`
