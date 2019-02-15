@@ -22,6 +22,7 @@ class App extends React.Component {
             href="https://fonts.googleapis.com/css?family=Work+Sans:400,600"
             rel="stylesheet"
           />
+          <meta name="theme-color" content={BG_COLOR} />
         </Head>
         <Header />
       </AppContainer>
