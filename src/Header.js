@@ -17,12 +17,13 @@ const Sun = styled.img`
   right: 0;
   top: 0;
   margin: 0 auto;
-  max-height: 270px;
+  max-height: 240px;
 `;
 
 const HeaderText = styled.div`
   margin: auto;
   text-align: center;
+  z-index: 5;
 `;
 
 const IdeateTitle = styled.h1`
