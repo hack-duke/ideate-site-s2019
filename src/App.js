@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from '@emotion/styled';
+import { Global, css } from '@emotion/core';
 import { Head } from 'react-static';
 import 'minireset.css/minireset.css';
 import './typography.css';
@@ -12,15 +13,18 @@ import { FAQs } from './FAQs.js';
 import { Footer } from './Footer.js';
 import { BG_COLOR } from './ui.js';
 
-const AppContainer = styled.div`
-  background: ${BG_COLOR};
-  color: white;
+const globalStyles = css`
+  body {
+    background: ${BG_COLOR};
+    color: white;
+  }
 `;
 
 class App extends React.Component {
   render() {
     return (
-      <AppContainer>
+      <>
+        <Global styles={globalStyles} />
         <Head>
           <title>IDEATE</title>
           <link
@@ -35,7 +39,7 @@ class App extends React.Component {
         <Schedule />
         <FAQs />
         <Footer />
-      </AppContainer>
+      </>
     );
   }
 }
