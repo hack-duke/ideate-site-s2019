@@ -1,5 +1,5 @@
 import React from 'react';
-import {css} from '@emotion/core';
+import { css } from '@emotion/core';
 import styled from '@emotion/styled';
 
 import OrbitArc from './img/orbit-arc-wide.svg';
@@ -8,7 +8,6 @@ const PlanetWrapper = styled.div`
   position: relative;
   display: flex;
   transform: translateY(50%);
-  margin-top: 60px;
 `;
 
 const orbitGraphic = (src, height, strokeWidth) => css`

@@ -6,6 +6,9 @@ import './typography.css';
 
 import { Header } from './Header.js';
 import { About } from './About.js';
+import { Speakers } from './Speakers.js';
+import { Schedule } from './Schedule.js';
+import { FAQs } from './FAQs.js';
 import { BG_COLOR } from './ui.js';
 
 const AppContainer = styled.div`
@@ -27,6 +30,9 @@ class App extends React.Component {
         </Head>
         <Header />
         <About />
+        <Speakers />
+        <Schedule />
+        <FAQs />
       </AppContainer>
     );
   }
