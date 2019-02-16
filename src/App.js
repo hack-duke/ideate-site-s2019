@@ -22,7 +22,7 @@ class App extends React.Component {
     return (
       <AppContainer>
         <Head>
-          <title>Ideate</title>
+          <title>IDEATE</title>
           <link
             href="https://fonts.googleapis.com/css?family=Work+Sans:400,600"
             rel="stylesheet"
