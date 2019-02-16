@@ -8,6 +8,7 @@ const PlanetWrapper = styled.div`
   position: relative;
   display: flex;
   transform: translateY(50%);
+  pointer-events: none;
 `;
 
 const orbitGraphic = (src, height, strokeWidth) => css`

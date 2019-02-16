@@ -9,6 +9,7 @@ import { About } from './About.js';
 import { Speakers } from './Speakers.js';
 import { Schedule } from './Schedule.js';
 import { FAQs } from './FAQs.js';
+import { Footer } from './Footer.js';
 import { BG_COLOR } from './ui.js';
 
 const AppContainer = styled.div`
@@ -33,6 +34,7 @@ class App extends React.Component {
         <Speakers />
         <Schedule />
         <FAQs />
+        <Footer />
       </AppContainer>
     );
   }
