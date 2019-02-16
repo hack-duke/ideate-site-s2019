@@ -1,4 +1,5 @@
 import React from 'react';
+import {css} from '@emotion/core';
 import styled from '@emotion/styled';
 
 import OrbitArc from './img/orbit-arc-wide.svg';
@@ -10,14 +11,18 @@ const PlanetWrapper = styled.div`
   margin-top: 60px;
 `;
 
-const Orbit = styled.div`
+const orbitGraphic = (src, height, strokeWidth) => css`
   position: absolute;
   width: 100%;
-  height: 184px;
-  top: -179px;
+  height: ${height}px;
+  top: ${-height + strokeWidth / 2}px;
   background-position: center;
-  background-image: url(${OrbitArc});
+  background-image: url(${src});
   background-repeat: no-repeat;
+`;
+
+const Orbit = styled.div`
+  ${orbitGraphic(OrbitArc, 184, 10)}
 `;
 
 const PlanetImage = styled.img`
