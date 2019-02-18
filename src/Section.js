@@ -3,7 +3,7 @@ import styled from '@emotion/styled';
 
 export const SectionTitle = styled.h1`
   margin: 0 auto 40px;
-  font-size: 1.5em;
+  font-size: 2em;
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.1em;
