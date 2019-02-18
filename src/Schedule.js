@@ -22,27 +22,31 @@ const scheduleData = [
 ];
 
 export const Schedule = () => {
-  const scheduleDesktopItems = scheduleData.map(
-    ([event, start, end, location], i) => (
-      <DesktopRow key={i}>
-        <DesktopEvent>{event}</DesktopEvent>
-        <span>
-          {start}-{end} IN THE {location}
-        </span>
-      </DesktopRow>
-    )
+  const scheduleDesktopItems = (
+    <DesktopTable>
+      {scheduleData.map(([event, start, end, location], i) => (
+        <DesktopRow key={i}>
+          <DesktopEvent>{event}</DesktopEvent>
+          <span>
+            {start}-{end} IN THE {location}
+          </span>
+        </DesktopRow>
+      ))}
+    </DesktopTable>
   );
 
-  const scheduleMobileItems = scheduleData.map(
-    ([event, start, end, location], i) => (
-      <MobileRow key={i}>
-        <MobileTime>{start}</MobileTime>
-        <TimeLocation>
-          <MobileLocation>{location}</MobileLocation>
-          <MobileEvent>{event}</MobileEvent>
-        </TimeLocation>
-      </MobileRow>
-    )
+  const scheduleMobileItems = (
+    <MobileTable>
+      {scheduleData.map(([event, start, end, location], i) => (
+        <>
+          <MobileTime>{start}</MobileTime>
+          <div>
+            <span>{location}</span>
+            <MobileEvent>{event}</MobileEvent>
+          </div>
+        </>
+      ))}
+    </MobileTable>
   );
 
   return (
@@ -50,18 +54,14 @@ export const Schedule = () => {
       <Planet src={SchedulePlanet} />
       <Section title="Schedule">
         <MediaQuery minWidth={600}>
-          {matches => (
-            <Table>
-              {matches ? scheduleDesktopItems : scheduleMobileItems}
-            </Table>
-          )}
+          {matches => (matches ? scheduleDesktopItems : scheduleMobileItems)}
         </MediaQuery>
       </Section>
     </>
   );
 };
 
-const Table = styled.div`
+const DesktopTable = styled.div`
   display: grid;
   max-width: 540px;
   grid-template-columns: repeat(1, 1fr);
@@ -78,26 +78,18 @@ const DesktopEvent = styled.span`
   font-weight: 600;
 `;
 
-const MobileRow = styled.div`
-  display: flex;
-  margin: 2rem 0rem;
-  align-items: center;
+const MobileTable = styled.div`
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: min-content 1fr;
+  grid-gap: 1.5em;
 `;
 
-const MobileTime = styled.p`
-  font-size: 2em;
-  margin-right: 2rem;
+const MobileTime = styled.span`
+  font-size: 1.75em;
 `;
 
-const MobileLocation = styled.p`
-  font-size: 1rem;
-`;
-
-const MobileEvent = styled.p`
+const MobileEvent = styled.div`
   font-weight: 600;
-  font-size: 1.5rem;
-`;
-
-const TimeLocation = styled.div`
-  text-align: left;
+  font-size: 1.333em;
 `;
