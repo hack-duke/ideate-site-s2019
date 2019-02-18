@@ -9,10 +9,9 @@ const HeaderContainer = styled.div`
   background-image: linear-gradient(${GRAD_START}, ${BG_COLOR});
   display: flex;
   position: relative;
-  margin-bottom: 20px;
 
   @media screen and (min-width: 1600px) {
-    margin-bottom: 60px;
+    margin-bottom: 40px;
   }
 `;
 
