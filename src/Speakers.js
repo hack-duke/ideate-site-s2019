@@ -9,12 +9,12 @@ import SpeakersPlanet from './img/speakers-planet.svg';
 const GridContainer = styled.div`
   display: grid;
   grid-template-columns: repeat(1, 1fr);
-  grid-row-gap: 50px;
-  grid-column-gap: 30px;
+  grid-gap: 30px;
   grid-auto-rows: minmax(100px, auto);
   width: 100%;
 
   @media screen and (min-width: 480px) {
+    grid-row-gap: 50px;
     grid-template-columns: repeat(2, 1fr);
   }
   @media screen and (min-width: 768px) {
