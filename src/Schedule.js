@@ -25,12 +25,12 @@ export const Schedule = () => {
   const scheduleDesktopItems = (
     <DesktopTable>
       {scheduleData.map(([event, start, end, location], i) => (
-        <DesktopRow key={i}>
+        <React.Fragment key={i}>
           <DesktopEvent>{event}</DesktopEvent>
-          <span>
+          <DesktopTimeLocation>
             {start}-{end} IN THE {location}
-          </span>
-        </DesktopRow>
+          </DesktopTimeLocation>
+        </React.Fragment>
       ))}
     </DesktopTable>
   );
@@ -38,13 +38,13 @@ export const Schedule = () => {
   const scheduleMobileItems = (
     <MobileTable>
       {scheduleData.map(([event, start, end, location], i) => (
-        <>
+        <React.Fragment key={i}>
           <MobileTime>{start}</MobileTime>
           <div>
             <span>{location}</span>
             <MobileEvent>{event}</MobileEvent>
           </div>
-        </>
+        </React.Fragment>
       ))}
     </MobileTable>
   );
@@ -53,7 +53,7 @@ export const Schedule = () => {
     <>
       <Planet src={SchedulePlanet} />
       <Section title="Schedule">
-        <MediaQuery minWidth={600}>
+        <MediaQuery minWidth={500}>
           {matches => (matches ? scheduleDesktopItems : scheduleMobileItems)}
         </MediaQuery>
       </Section>
@@ -64,18 +64,18 @@ export const Schedule = () => {
 const DesktopTable = styled.div`
   display: grid;
   max-width: 540px;
-  grid-template-columns: repeat(1, 1fr);
-  grid-row-gap: 1em;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: min-content min-content;
+  grid-gap: 1em;
   margin: 0 auto;
-`;
-
-const DesktopRow = styled.div`
-  display: flex;
-  justify-content: space-between;
 `;
 
 const DesktopEvent = styled.span`
   font-weight: 600;
+`;
+
+const DesktopTimeLocation = styled.span`
+  text-align: right;
 `;
 
 const MobileTable = styled.div`
