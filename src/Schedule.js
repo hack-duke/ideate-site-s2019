@@ -7,46 +7,61 @@ import styled from '@emotion/styled';
 
 import SchedulePlanet from './img/schedule-planet.svg';
 
-export const Schedule = () => {
+const scheduleData = [
+  ['BREAKFAST', '10:00', '12:00', 'ATRIUM'],
+  ['LAUNCH IDEAS', '11:00', '12:00', 'ATRIUM'],
+  ['WORKSHOP', '1:00', '3:00', 'ATRIUM'],
+  ['SPEAKER ONE', '3:00', '2:00', 'ATRIUM'],
+  ['SPEAKER TWO', '4:00', '5:30', 'ATRIUM'],
+  ['WORKSHOP: SOMETHING', '4:00', '5:30', 'ATRIUM'],
+  ['LUNCH', '6:00', '7:00', 'ATRIUM'],
+  ['IDEATION WORKSHOP', '8:00', '2:00', 'ATRIUM'],
+  ['GET FREE STUFF YAY', '3:00', '2:00', 'ATRIUM'],
+  ['DESIGN WOOHOO', '4:00', '5:30', 'ATRIUM'],
+  ['YAY I LOVE IDEATE', '4:00', '5:30', 'ATRIUM']
+];
 
-  const scheduleDesktopItems = [];
-  scheduleData.forEach((item, i) => {
-    scheduleDesktopItems.push(
+export const Schedule = () => {
+  const scheduleDesktopItems = scheduleData.map(
+    ([event, start, end, location], i) => (
       <DesktopRow key={i}>
-      <p>{item[0]}</p>
-      <p>{item[1]}-{item[2]} IN THE {item[3]}</p>
+        <p>{event}</p>
+        <p>
+          {start}-{end} IN THE {location}
+        </p>
       </DesktopRow>
     )
-  });
+  );
 
-  const scheduleMobileItems = [];
-  scheduleData.forEach((item, i) => {
-    scheduleMobileItems.push(
+  const scheduleMobileItems = scheduleData.map(
+    ([event, start, end, location], i) => (
       <MobileRow key={i}>
-        <MobileTime>{item[2]}</MobileTime>
+        <MobileTime>{start}</MobileTime>
         <TimeLocation>
-          <MobileLocation>{item[3]}</MobileLocation>
-          <MobileEvent>{item[0]}</MobileEvent>
+          <MobileLocation>{location}</MobileLocation>
+          <MobileEvent>{event}</MobileEvent>
         </TimeLocation>
       </MobileRow>
     )
-  });
-  
+  );
+
+  console.log(scheduleDesktopItems.length);
+  console.log(scheduleMobileItems.length);
+
   return (
     <>
       <Planet src={SchedulePlanet} />
       <Section title="Schedule">
-        <Table>
-          <MediaQuery query="(max-width: 600px)">
-            {scheduleMobileItems}
-          </MediaQuery>
-          <MediaQuery query="(min-width: 601px)">
-            {scheduleDesktopItems}
-          </MediaQuery>  
-        </Table>
+        <MediaQuery minWidth={600}>
+          {matches => (
+            <Table>
+              {matches ? scheduleDesktopItems : scheduleMobileItems}
+            </Table>
+          )}
+        </MediaQuery>
       </Section>
     </>
-  )
+  );
 };
 
 const Table = styled.div`
@@ -88,17 +103,3 @@ const MobileEvent = styled.p`
 const TimeLocation = styled.div`
   text-align: left;
 `;
-
-const scheduleData = [
-  ['BREAKFAST', '10:00', '12:00', 'ATRIUM'],
-  ['LAUNCH IDEAS', '11:00', '12:00', 'ATRIUM'],
-  ['WORKSHOP', '1:00', '3:00', 'ATRIUM'],
-  ['SPEAKER ONE', '3:00', '2:00', 'ATRIUM'],
-  ['SPEAKER TWO', '4:00', '5:30', 'ATRIUM'],
-  ['WORKSHOP: SOMETHING', '4:00', '5:30', 'ATRIUM'],
-  ['LUNCH', '6:00', '7:00', 'ATRIUM'],
-  ['IDEATION WORKSHOP', '8:00', '2:00', 'ATRIUM'],
-  ['GET FREE STUFF YAY', '3:00', '2:00', 'ATRIUM'],
-  ['DESIGN WOOHOO', '4:00', '5:30', 'ATRIUM'],
-  ['YAY I LOVE IDEATE', '4:00', '5:30', 'ATRIUM']
-];
