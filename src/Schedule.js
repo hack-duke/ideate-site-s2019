@@ -21,45 +21,58 @@ const scheduleData = [
   ['YAY I LOVE IDEATE', '4:00', '5:30', 'ATRIUM']
 ];
 
-export const Schedule = () => {
-  const scheduleDesktopItems = (
-    <DesktopTable>
-      {scheduleData.map(([event, start, end, location], i) => (
-        <React.Fragment key={i}>
-          <DesktopEvent>{event}</DesktopEvent>
-          <DesktopTimeLocation>
-            {start}-{end} IN THE {location}
-          </DesktopTimeLocation>
-        </React.Fragment>
-      ))}
-    </DesktopTable>
-  );
+export class Schedule extends React.Component {
+  state = {
+    mounted: false
+  };
 
-  const scheduleMobileItems = (
-    <MobileTable>
-      {scheduleData.map(([event, start, end, location], i) => (
-        <React.Fragment key={i}>
-          <MobileTime>{start}</MobileTime>
-          <div>
-            <span>{location}</span>
-            <MobileEvent>{event}</MobileEvent>
-          </div>
-        </React.Fragment>
-      ))}
-    </MobileTable>
-  );
+  componentDidMount() {
+    // Client-side only
+    this.setState({ mounted: true });
+  }
 
-  return (
-    <>
-      <Planet src={SchedulePlanet} />
-      <Section title="Schedule">
-        <MediaQuery minWidth={500}>
-          {matches => (matches ? scheduleDesktopItems : scheduleMobileItems)}
-        </MediaQuery>
-      </Section>
-    </>
-  );
-};
+  render() {
+    if (!this.state.mounted) return null;
+
+    const scheduleDesktopItems = (
+      <DesktopTable>
+        {scheduleData.map(([event, start, end, location], i) => (
+          <React.Fragment key={i}>
+            <DesktopEvent>{event}</DesktopEvent>
+            <DesktopTimeLocation>
+              {start}-{end} IN THE {location}
+            </DesktopTimeLocation>
+          </React.Fragment>
+        ))}
+      </DesktopTable>
+    );
+
+    const scheduleMobileItems = (
+      <MobileTable>
+        {scheduleData.map(([event, start, end, location], i) => (
+          <React.Fragment key={i}>
+            <MobileTime>{start}</MobileTime>
+            <div>
+              <span>{location}</span>
+              <MobileEvent>{event}</MobileEvent>
+            </div>
+          </React.Fragment>
+        ))}
+      </MobileTable>
+    );
+
+    return (
+      <>
+        <Planet src={SchedulePlanet} />
+        <Section title="Schedule">
+          <MediaQuery minWidth={500}>
+            {matches => (matches ? scheduleDesktopItems : scheduleMobileItems)}
+          </MediaQuery>
+        </Section>
+      </>
+    );
+  }
+}
 
 const DesktopTable = styled.div`
   display: grid;
