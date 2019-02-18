@@ -11,6 +11,7 @@ export const SectionTitle = styled.h1`
 `;
 
 const SectionContent = styled.div`
+  width: 100%;
   max-width: 960px;
   margin: 0 auto;
 `;

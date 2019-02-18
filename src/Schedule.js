@@ -25,10 +25,10 @@ export const Schedule = () => {
   const scheduleDesktopItems = scheduleData.map(
     ([event, start, end, location], i) => (
       <DesktopRow key={i}>
-        <p>{event}</p>
-        <p>
+        <DesktopEvent>{event}</DesktopEvent>
+        <span>
           {start}-{end} IN THE {location}
-        </p>
+        </span>
       </DesktopRow>
     )
   );
@@ -65,12 +65,17 @@ const Table = styled.div`
   display: grid;
   max-width: 540px;
   grid-template-columns: repeat(1, 1fr);
-  grid-row-gap: 0.5em;
+  grid-row-gap: 1em;
+  margin: 0 auto;
 `;
 
 const DesktopRow = styled.div`
   display: flex;
   justify-content: space-between;
+`;
+
+const DesktopEvent = styled.span`
+  font-weight: 600;
 `;
 
 const MobileRow = styled.div`
@@ -81,7 +86,6 @@ const MobileRow = styled.div`
 
 const MobileTime = styled.p`
   font-size: 2em;
-  basis: 20rem;
   margin-right: 2rem;
 `;
 
