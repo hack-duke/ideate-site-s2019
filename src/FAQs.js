@@ -2,7 +2,7 @@ import React from 'react';
 import styled from '@emotion/styled';
 
 import { Planet } from './Planet.js';
-import { Section } from './Section.js';
+import { Section, Subtitle } from './Section.js';
 
 import FAQsPlanet from './img/faqs-planet.svg';
 
@@ -28,25 +28,20 @@ const GridItem = styled.div`
   grid-column: auto;
 `;
 
-const Header = styled.h3`
-  font-weight: bold;
-  margin-bottom: 1em;
-`;
-
 export const FAQs = () => (
   <>
     <Planet src={FAQsPlanet} />
     <Section title="FAQs">
       <GridContainer>
         <GridItem>
-          <Header>Is this event open for everyone?</Header>
+          <Subtitle>Is this event open for everyone?</Subtitle>
           <p>
             Due to venue capacity, we are only able to accept the first 200 that
             apply. Registration will be open shortly!
           </p>
         </GridItem>
         <GridItem>
-          <Header>Is transportation provided?</Header>
+          <Subtitle>Is transportation provided?</Subtitle>
           <p>
             Duke has transportation from both West and East Campus to Gross
             Hall. From the chapel, it's less than a 10 minute walk. If you are
@@ -54,13 +49,15 @@ export const FAQs = () => (
           </p>
         </GridItem>
         <GridItem>
-          <Header>Do I need to bring anything specific to the event?</Header>
+          <Subtitle>
+            Do I need to bring anything specific to the event?
+          </Subtitle>
           <p>
             Bring your laptop, student ID/government ID, and your design soul!
           </p>
         </GridItem>
         <GridItem>
-          <Header>Lorem ipsum dolor sit amet</Header>
+          <Subtitle>Lorem ipsum dolor sit amet</Subtitle>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
@@ -72,7 +69,7 @@ export const FAQs = () => (
           </p>
         </GridItem>
         <GridItem>
-          <Header>Lorem ipsum dolor sit amet</Header>
+          <Subtitle>Lorem ipsum dolor sit amet</Subtitle>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
@@ -84,7 +81,7 @@ export const FAQs = () => (
           </p>
         </GridItem>
         <GridItem>
-          <Header>Lorem ipsum dolor sit amet</Header>
+          <Subtitle>Lorem ipsum dolor sit amet</Subtitle>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim

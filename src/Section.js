@@ -10,6 +10,12 @@ export const SectionTitle = styled.h1`
   display: block;
 `;
 
+export const Subtitle = styled.h3`
+  font-size: 1.25em;
+  font-weight: 600;
+  margin-bottom: 0.75em;
+`;
+
 const SectionContent = styled.div`
   width: 100%;
   max-width: 960px;

@@ -2,7 +2,7 @@ import React from 'react';
 import styled from '@emotion/styled';
 
 import { Planet } from './Planet.js';
-import { Section } from './Section.js';
+import { Section, Subtitle } from './Section.js';
 
 import AboutPlanet from './img/about-planet.svg';
 
@@ -19,17 +19,13 @@ const GridItem = styled.div`
   grid-column: auto;
 `;
 
-const Header = styled.h3`
-  font-weight: 600;
-`;
-
 export const About = () => (
   <>
     <Planet src={AboutPlanet} />
     <Section title="What is IDEATE?">
       <GridContainer>
         <GridItem>
-          <Header>Ideate | īdēˌāt | vb.</Header>
+          <Subtitle>Ideate | īdēˌāt | vb.</Subtitle>
           <p>
             To explore a wide variety of possible solutions through generating a
             large quantity of diverse possible soutions, allowing you to step
@@ -37,7 +33,7 @@ export const About = () => (
           </p>
         </GridItem>
         <GridItem>
-          <Header>Ideate @ Duke is...</Header>
+          <Subtitle>Ideate @ Duke is...</Subtitle>
           <p>
             A one-day conference filled with awesome speakers and workshops to
             explore how design and innovation interact. Ideate aims to observe
