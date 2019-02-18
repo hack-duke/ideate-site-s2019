@@ -2,7 +2,7 @@ import React from 'react';
 import styled from '@emotion/styled';
 
 import { Planet } from './Planet.js';
-import { Section, Subtitle } from './Section.js';
+import { Section, Subtitle, Paragraph } from './Section.js';
 
 import FAQsPlanet from './img/faqs-planet.svg';
 
@@ -34,30 +34,30 @@ export const FAQs = () => (
       <GridContainer>
         <GridItem>
           <Subtitle>Is this event open for everyone?</Subtitle>
-          <p>
+          <Paragraph>
             Due to venue capacity, we are only able to accept the first 200 that
             apply. Registration will be open shortly!
-          </p>
+          </Paragraph>
         </GridItem>
         <GridItem>
           <Subtitle>Is transportation provided?</Subtitle>
-          <p>
+          <Paragraph>
             Duke has transportation from both West and East Campus to Gross
             Hall. From the chapel, it's less than a 10 minute walk. If you are
             driving, there is the Bryan Center parking lot nearby!
-          </p>
+          </Paragraph>
         </GridItem>
         <GridItem>
           <Subtitle>
             Do I need to bring anything specific to the event?
           </Subtitle>
-          <p>
+          <Paragraph>
             Bring your laptop, student ID/government ID, and your design soul!
-          </p>
+          </Paragraph>
         </GridItem>
         <GridItem>
           <Subtitle>Lorem ipsum dolor sit amet</Subtitle>
-          <p>
+          <Paragraph>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
             ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
@@ -65,11 +65,11 @@ export const FAQs = () => (
             reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
             pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
             culpa qui officia deserunt mollit anim id est laborum
-          </p>
+          </Paragraph>
         </GridItem>
         <GridItem>
           <Subtitle>Lorem ipsum dolor sit amet</Subtitle>
-          <p>
+          <Paragraph>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
             ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
@@ -77,11 +77,11 @@ export const FAQs = () => (
             reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
             pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
             culpa qui officia deserunt mollit anim id est laborum
-          </p>
+          </Paragraph>
         </GridItem>
         <GridItem>
           <Subtitle>Lorem ipsum dolor sit amet</Subtitle>
-          <p>
+          <Paragraph>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
             ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
@@ -89,7 +89,7 @@ export const FAQs = () => (
             reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
             pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
             culpa qui officia deserunt mollit anim id est laborum
-          </p>
+          </Paragraph>
         </GridItem>
       </GridContainer>
     </Section>

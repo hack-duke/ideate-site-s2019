@@ -2,7 +2,7 @@ import React from 'react';
 import styled from '@emotion/styled';
 
 import { Planet } from './Planet.js';
-import { Section, Subtitle } from './Section.js';
+import { Section, Subtitle, Paragraph } from './Section.js';
 
 import AboutPlanet from './img/about-planet.svg';
 
@@ -21,20 +21,20 @@ export const About = () => (
       <GridContainer>
         <div>
           <Subtitle>Ideate | īdēˌāt | vb.</Subtitle>
-          <p>
+          <Paragraph>
             To explore a wide variety of possible solutions through generating a
             large quantity of diverse possible soutions, allowing you to step
             beyond the obvious and explore a range of ideas.
-          </p>
+          </Paragraph>
         </div>
         <div>
           <Subtitle>Ideate @ Duke is...</Subtitle>
-          <p>
+          <Paragraph>
             A one-day conference filled with awesome speakers and workshops to
             explore how design and innovation interact. Ideate aims to observe
             how design-thinking can be applied across field, and is open to
             design aficionados, curious newcomers, and everyone in between!
-          </p>
+          </Paragraph>
         </div>
       </GridContainer>
     </Section>

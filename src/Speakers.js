@@ -2,7 +2,7 @@ import React from 'react';
 import styled from '@emotion/styled';
 
 import { Planet } from './Planet.js';
-import { Section, Subtitle } from './Section.js';
+import { Section, Subtitle, Paragraph } from './Section.js';
 
 import SpeakersPlanet from './img/speakers-planet.svg';
 
@@ -46,7 +46,7 @@ export const Speakers = () => (
         <GridItem>
           <SpeakerPlanet src={'https://placekitten.com/200/200'} />
           <Subtitle>First Last</Subtitle>
-          <p>
+          <Paragraph>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
             ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
@@ -54,12 +54,12 @@ export const Speakers = () => (
             reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
             pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
             culpa qui officia deserunt mollit anim id est laborum
-          </p>
+          </Paragraph>
         </GridItem>
         <GridItem>
           <SpeakerPlanet src={'https://placekitten.com/200/500'} />
           <Subtitle>First Last</Subtitle>
-          <p>
+          <Paragraph>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
             ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
@@ -67,12 +67,12 @@ export const Speakers = () => (
             reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
             pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
             culpa qui officia deserunt mollit anim id est laborum
-          </p>
+          </Paragraph>
         </GridItem>
         <GridItem>
           <SpeakerPlanet src={'https://placebear.com/200/300'} />
           <Subtitle>First Last</Subtitle>
-          <p>
+          <Paragraph>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
             ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
@@ -80,7 +80,7 @@ export const Speakers = () => (
             reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
             pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
             culpa qui officia deserunt mollit anim id est laborum
-          </p>
+          </Paragraph>
         </GridItem>
       </GridContainer>
     </Section>

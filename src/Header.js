@@ -3,6 +3,7 @@ import styled from '@emotion/styled';
 import { css } from '@emotion/core';
 
 import { GRAD_START, BG_COLOR } from './ui.js';
+import { bodyTextStyle } from './Section.js';
 import { Button } from './Button.js';
 import SunImage from './img/sun.svg';
 
@@ -44,6 +45,7 @@ const IdeateTitle = styled.h1`
 const Subtitle = styled.h3`
   font-size: 1.5em;
   line-height: 1.333em;
+  ${bodyTextStyle}
 `;
 
 export const Header = () => (

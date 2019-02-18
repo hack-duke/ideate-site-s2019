@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from '@emotion/styled';
+import { css } from '@emotion/core';
 
 export const SectionTitle = styled.h1`
   margin: 0 auto 40px;
@@ -15,6 +16,14 @@ export const Subtitle = styled.h3`
   font-size: 1.25em;
   font-weight: 600;
   margin-bottom: 0.75em;
+`;
+
+export const bodyTextStyle = css`
+  opacity: 0.75;
+`;
+
+export const Paragraph = styled.p`
+  ${bodyTextStyle}
 `;
 
 const SectionContent = styled.div`
