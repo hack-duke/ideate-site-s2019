@@ -53,7 +53,7 @@ export class Schedule extends React.Component {
           <React.Fragment key={i}>
             <MobileTime>{start}</MobileTime>
             <div>
-              <span>{location}</span>
+              <MobileLocation>{location}</MobileLocation>
               <MobileEvent>{event}</MobileEvent>
             </div>
           </React.Fragment>
@@ -89,6 +89,7 @@ const DesktopEvent = styled.span`
 
 const DesktopTimeLocation = styled.span`
   text-align: right;
+  opacity: 0.7;
 `;
 
 const MobileTable = styled.div`
@@ -100,7 +101,10 @@ const MobileTable = styled.div`
 
 const MobileTime = styled.span`
   font-size: 1.75em;
+  opacity: 0.7;
 `;
+
+const MobileLocation = styled.span``;
 
 const MobileEvent = styled.div`
   font-weight: 600;
