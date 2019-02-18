@@ -10,7 +10,6 @@ const GridContainer = styled.div`
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   grid-gap: 30px;
-  grid-auto-rows: minmax(100px, auto);
   width: 100%;
 
   @media screen and (min-width: 480px) {

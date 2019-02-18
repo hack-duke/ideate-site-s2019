@@ -9,14 +9,9 @@ import AboutPlanet from './img/about-planet.svg';
 const GridContainer = styled.div`
   display: grid;
   grid-template-columns: repeat(1, 1fr);
-  grid-row-gap: 20px;
+  grid-gap: 30px;
   max-width: 640px;
   margin: 0 auto;
-`;
-
-const GridItem = styled.div`
-  grid-row: auto;
-  grid-column: auto;
 `;
 
 export const About = () => (
@@ -24,15 +19,15 @@ export const About = () => (
     <Planet src={AboutPlanet} />
     <Section title="What is IDEATE?">
       <GridContainer>
-        <GridItem>
+        <div>
           <Subtitle>Ideate | īdēˌāt | vb.</Subtitle>
           <p>
             To explore a wide variety of possible solutions through generating a
             large quantity of diverse possible soutions, allowing you to step
             beyond the obvious and explore a range of ideas.
           </p>
-        </GridItem>
-        <GridItem>
+        </div>
+        <div>
           <Subtitle>Ideate @ Duke is...</Subtitle>
           <p>
             A one-day conference filled with awesome speakers and workshops to
@@ -40,7 +35,7 @@ export const About = () => (
             how design-thinking can be applied across field, and is open to
             design aficionados, curious newcomers, and everyone in between!
           </p>
-        </GridItem>
+        </div>
       </GridContainer>
     </Section>
   </>
