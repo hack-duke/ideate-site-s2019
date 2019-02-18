@@ -20,9 +20,9 @@
     "react-static-plugin-emotion": "^6.3.0"
   },
   "devDependencies": {
+    "@emotion/babel-preset-css-prop": "^10.0.7",
     "acorn": "^6.1.0",
     "acorn-dynamic-import": "^4.0.0",
-    "babel-plugin-emotion": "^10.0.7",
     "eslint-config-react-tools": "1.x.x",
     "serve": "^10.1.1"
   }
