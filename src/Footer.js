@@ -23,6 +23,7 @@ const HypeMessage = styled.h1`
   text-transform: uppercase;
   margin: 0 auto;
   font-size: 2em;
+  text-align: center;
 `;
 
 const CenterButton = styled.div`
