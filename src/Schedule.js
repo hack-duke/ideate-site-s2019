@@ -76,11 +76,11 @@ export class Schedule extends React.Component {
 
 const DesktopTable = styled.div`
   display: grid;
-  max-width: 540px;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: min-content min-content;
+  grid-template-columns: repeat(2, auto);
+  justify-content: space-between;
   grid-gap: 1em;
   margin: 0 auto;
+  max-width: 540px;
 `;
 
 const DesktopEvent = styled.span`
@@ -93,8 +93,8 @@ const DesktopTimeLocation = styled.span`
 
 const MobileTable = styled.div`
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-columns: min-content 1fr;
+  grid-template-columns: repeat(2, auto);
+  justify-content: space-between;
   grid-gap: 1.5em;
 `;
 
