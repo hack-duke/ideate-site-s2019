@@ -45,9 +45,6 @@ export const Schedule = () => {
     )
   );
 
-  console.log(scheduleDesktopItems.length);
-  console.log(scheduleMobileItems.length);
-
   return (
     <>
       <Planet src={SchedulePlanet} />
@@ -65,18 +62,15 @@ export const Schedule = () => {
 };
 
 const Table = styled.div`
-  margin: 0 auto;
-  width: 30rem;
-
-  @media screen and (max-width: 600px) {
-    width: 17.5rem;
-  }
+  display: grid;
+  max-width: 540px;
+  grid-template-columns: repeat(1, 1fr);
+  grid-row-gap: 0.5em;
 `;
 
 const DesktopRow = styled.div`
   display: flex;
   justify-content: space-between;
-  margin: 1rem 0rem;
 `;
 
 const MobileRow = styled.div`
