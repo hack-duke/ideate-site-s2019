@@ -8,6 +8,7 @@ export const SectionTitle = styled.h1`
   text-transform: uppercase;
   letter-spacing: 0.1em;
   display: block;
+  text-align: center;
 `;
 
 export const Subtitle = styled.h3`
