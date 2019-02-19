@@ -13,9 +13,13 @@ import { FAQs } from './FAQs.js';
 import { Footer } from './Footer.js';
 import { BG_COLOR } from './ui.js';
 
+import Stars from './img/stars-bg.svg';
+
 const globalStyles = css`
   body {
     background: ${BG_COLOR};
+    background-image: url(${Stars});
+    background-size: 90%;
     color: white;
   }
 `;

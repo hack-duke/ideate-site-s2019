@@ -2,7 +2,7 @@ import React from 'react';
 import MediaQuery from 'react-responsive';
 
 import { Planet } from './Planet.js';
-import { Section, bodyTextStyle } from './Section.js';
+import { Section, bodyTextStyle, shadowBg } from './Section.js';
 import styled from '@emotion/styled';
 
 import SchedulePlanet from './img/schedule-planet.svg';
@@ -85,11 +85,13 @@ const DesktopTable = styled.div`
 
 const DesktopEvent = styled.span`
   font-weight: 600;
+  ${shadowBg};
 `;
 
 const DesktopTimeLocation = styled.span`
   text-align: right;
   ${bodyTextStyle}
+  ${shadowBg};
 `;
 
 const MobileTable = styled.div`
@@ -102,11 +104,15 @@ const MobileTable = styled.div`
 const MobileTime = styled.span`
   font-size: 1.75em;
   ${bodyTextStyle}
+  ${shadowBg};
 `;
 
-const MobileLocation = styled.span``;
+const MobileLocation = styled.span`
+  ${shadowBg};
+`;
 
 const MobileEvent = styled.div`
   font-weight: 600;
   font-size: 1.333em;
+  ${shadowBg};
 `;

@@ -2,14 +2,14 @@ import React from 'react';
 import styled from '@emotion/styled';
 import { css } from '@emotion/core';
 
-import { GRAD_START, BG_COLOR } from './ui.js';
+import { GRAD_START } from './ui.js';
 import { bodyTextStyle } from './Section.js';
 import { Button } from './Button.js';
 import SunImage from './img/sun.svg';
 
 const HeaderContainer = styled.div`
   height: 100vh;
-  background-image: linear-gradient(${GRAD_START}, ${BG_COLOR});
+  background-image: linear-gradient(${GRAD_START}, transparent);
   display: flex;
   position: relative;
 
