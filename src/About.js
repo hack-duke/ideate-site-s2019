@@ -32,7 +32,7 @@ export const About = () => (
           <Paragraph>
             A one-day conference filled with awesome speakers and workshops to
             explore how design and innovation interact. Ideate aims to observe
-            how design-thinking can be applied across field, and is open to
+            how design thinking can be applied across fields, and is open to
             design aficionados, curious newcomers, and everyone in between!
           </Paragraph>
         </div>
