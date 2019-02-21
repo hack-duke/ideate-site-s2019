@@ -12,7 +12,7 @@ export const Footer = () => (
     <Planet src={FooterPlanet} />
     <Section title="Are you ready to take off?">
       <CenterButton>
-        <Button>Apply Now</Button>
+        <Button href="/apply">Apply Now</Button>
       </CenterButton>
     </Section>
   </>

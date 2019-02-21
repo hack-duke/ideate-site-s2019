@@ -56,7 +56,7 @@ export const Header = () => (
       <Subtitle>April 6th, 2019</Subtitle>
       <Subtitle>Duke University</Subtitle>
       <Button
-        href="#"
+        href="/apply"
         css={css`
           margin-top: 40px;
         `}
