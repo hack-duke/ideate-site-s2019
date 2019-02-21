@@ -13,14 +13,19 @@ import { FAQs } from './FAQs.js';
 import { Footer } from './Footer.js';
 import { BG_COLOR } from './ui.js';
 
-import Stars from './img/stars-bg.svg';
+// See https://bugs.chromium.org/p/chromium/issues/detail?id=934314
+import Stars from './img/stars-bg.png';
 
 const globalStyles = css`
   body {
-    background: ${BG_COLOR};
-    background-image: url(${Stars});
-    background-size: 90%;
     color: white;
+    background: url(${Stars}), linear-gradient(${BG_COLOR}, ${BG_COLOR});
+    background-position: center;
+    background-size: 1500px;
+
+    @media screen and (min-width: 768px) {
+      background-size: 2000px;
+    }
   }
 `;
 
