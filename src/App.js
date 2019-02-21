@@ -19,9 +19,10 @@ import Stars from './img/stars-bg.png';
 const globalStyles = css`
   body {
     color: white;
-    background: url(${Stars}), linear-gradient(${BG_COLOR}, ${BG_COLOR});
+    background: ${BG_COLOR};
+    background-image: url(${Stars});
     background-position: center;
-    background-size: 1500px;
+    background-size: 1120px;
 
     @media screen and (min-width: 768px) {
       background-size: 2000px;
