@@ -3,7 +3,6 @@ import styled from '@emotion/styled';
 import { Global, css } from '@emotion/core';
 import { Head } from 'react-static';
 import 'minireset.css/minireset.css';
-import './typography.css';
 
 import { Header } from './Header.js';
 import { About } from './About.js';
@@ -27,6 +26,11 @@ const globalStyles = css`
     @media screen and (min-width: 768px) {
       background-size: 2000px;
     }
+  }
+
+  body,
+  button {
+    font-family: 'Work Sans', sans-serif;
   }
 `;
 
