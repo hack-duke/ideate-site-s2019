@@ -30,28 +30,23 @@ const globalStyles = css`
   }
 `;
 
-class App extends React.Component {
-  render() {
-    return (
-      <>
-        <Global styles={globalStyles} />
-        <Head>
-          <title>IDEATE</title>
-          <link
-            href="https://fonts.googleapis.com/css?family=Work+Sans:400,600"
-            rel="stylesheet"
-          />
-          <meta name="theme-color" content={BG_COLOR} />
-        </Head>
-        <Header />
-        <About />
-        <Speakers />
-        <Schedule />
-        <FAQs />
-        <Footer />
-      </>
-    );
-  }
-}
-
+const App = () => (
+  <>
+    <Global styles={globalStyles} />
+    <Head>
+      <title>IDEATE</title>
+      <link
+        href="https://fonts.googleapis.com/css?family=Work+Sans:400,600"
+        rel="stylesheet"
+      />
+      <meta name="theme-color" content={BG_COLOR} />
+    </Head>
+    <Header />
+    <About />
+    <Speakers />
+    <Schedule />
+    <FAQs />
+    <Footer />
+  </>
+);
 export default App;
