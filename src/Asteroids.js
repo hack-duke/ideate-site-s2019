@@ -1,12 +1,11 @@
 import React from 'react';
-import PropTypes from 'prop-types';
-const Asteroids = props => (
+
+export const Asteroids = () => (
   <svg
     id="780c6f38–12e9–4526–8343–95ef18389740"
     dataName="Layer 1"
     xmlns="http://www.w3.org/2000/svg"
   >
-    // all your svg code
     <svg
       width="1920"
       height="559"
@@ -153,4 +152,3 @@ const Asteroids = props => (
     </svg>
   </svg>
 );
-export default Asteroids;
