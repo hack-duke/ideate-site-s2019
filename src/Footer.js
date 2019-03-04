@@ -6,6 +6,7 @@ import { Section } from './Section.js';
 import { Button } from './Button.js';
 
 import FooterPlanet from './img/footer-planet.svg';
+import { Asteroids } from './Asteroids.js';
 
 export const Footer = () => (
   <>
@@ -15,6 +16,7 @@ export const Footer = () => (
         <Button href="/apply">Apply Now</Button>
       </CenterButton>
     </Section>
+    <Astroids src={Asteroids} />
   </>
 );
 
