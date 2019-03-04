@@ -3,7 +3,6 @@ import styled from '@emotion/styled';
 import { Global, css } from '@emotion/core';
 import { Head } from 'react-static';
 import 'minireset.css/minireset.css';
-import './typography.css';
 
 import { Header } from './Header.js';
 import { About } from './About.js';
@@ -28,30 +27,30 @@ const globalStyles = css`
       background-size: 2000px;
     }
   }
+
+  body,
+  button {
+    font-family: 'Work Sans', sans-serif;
+  }
 `;
 
-class App extends React.Component {
-  render() {
-    return (
-      <>
-        <Global styles={globalStyles} />
-        <Head>
-          <title>IDEATE</title>
-          <link
-            href="https://fonts.googleapis.com/css?family=Work+Sans:400,600"
-            rel="stylesheet"
-          />
-          <meta name="theme-color" content={BG_COLOR} />
-        </Head>
-        <Header />
-        <About />
-        <Speakers />
-        <Schedule />
-        <FAQs />
-        <Footer />
-      </>
-    );
-  }
-}
-
+const App = () => (
+  <>
+    <Global styles={globalStyles} />
+    <Head>
+      <title>IDEATE</title>
+      <link
+        href="https://fonts.googleapis.com/css?family=Work+Sans:400,600"
+        rel="stylesheet"
+      />
+      <meta name="theme-color" content={BG_COLOR} />
+    </Head>
+    <Header />
+    <About />
+    <Speakers />
+    <Schedule />
+    <FAQs />
+    <Footer />
+  </>
+);
 export default App;

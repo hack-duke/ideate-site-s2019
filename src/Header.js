@@ -16,6 +16,10 @@ const HeaderContainer = styled.div`
   @media screen and (min-width: 1600px) {
     margin-bottom: 40px;
   }
+
+  @media screen and (min-width: 1840px) {
+    margin-bottom: 50px;
+  }
 `;
 
 const Sun = styled.img`
