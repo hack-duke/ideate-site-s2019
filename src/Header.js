@@ -42,11 +42,27 @@ const IdeateTitle = styled.h1`
   font-size: 3.333em;
   letter-spacing: 0.2em;
   font-weight: 600;
+  margin-top: 40px;
   margin-bottom: 40px;
   text-align: center;
 `;
 
-const Subtitle = styled.h3`
+const Description = styled.h3`
+  font-size: 1.5em;
+  line-height: 1.333em;
+  font-style: italic;
+  ${bodyTextStyle}
+`;
+
+const Date = styled.h3`
+  font-size: 1.5em;
+  line-height: 1.333em;
+  font-weight: bold;
+  ${bodyTextStyle}
+  fo
+`;
+
+const Location = styled.h3`
   font-size: 1.5em;
   line-height: 1.333em;
   ${bodyTextStyle}
@@ -57,9 +73,9 @@ export const Header = () => (
     <Sun src={SunImage} />
     <HeaderText>
       <IdeateTitle>IDEATE</IdeateTitle>
-      <Subtitle>A student innovation & design conference </Subtitle>
-      <Subtitle>April 6th, 2019 @ Duke University</Subtitle>
-      <Subtitle>Gross Hall</Subtitle>
+      <Description>A student innovation & design conference </Description>
+      <Date>April 6th, 2019 @ Duke University</Date>
+      <Location>Gross Hall</Location>
       <Button
         href="/apply"
         css={css`

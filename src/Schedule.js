@@ -8,13 +8,13 @@ import styled from '@emotion/styled';
 import SchedulePlanet from './img/schedule-planet.svg';
 
 const scheduleData = [
-  ['CHECK-IN', '10:00', '12:00', 'MAIN LOBBY'],
-  ['KEYNOTE SPEECH', '11:00', '12:00', 'AHMADIEH FAMILY AUDITORIUM (GROSS HALL 107)'],
-  ['WORKSHOP SESSION 1', '12:00', '1:00', 'GROSS HALL 104, 105, 270'],
-  ['LUNCH', '1:00', '2:00', 'MAIN LOBBY, GROSS HALL 230 & 250'],
-  ['WORKSHOP SESSION 2', '2:00', '3:00', 'GROSS HALL 104, 105, 270'],
-  ['DESIGN CHALLENGE', '3:00', '5:00', 'GROSS HALL'],
-  ['CLOSING SPEECH', '5:00', '6:00', 'AHMADIEH FAMILY AUDITORIUM (GROSS HALL 107)'],
+  ['CHECK-IN', '10:00AM', '12:00PM', 'MAIN LOBBY'],
+  ['KEYNOTE SPEECH', '11:00AM', '12:00PM', 'AHMADIEH FAMILY AUDITORIUM (GROSS HALL 107)'],
+  ['WORKSHOP SESSION 1', '12:00PM', '1:00PM', 'GROSS HALL 104, 105, 270'],
+  ['LUNCH', '1:00PM', '2:00PM', 'MAIN LOBBY, GROSS HALL 230 & 250'],
+  ['WORKSHOP SESSION 2', '2:00PM', '3:00PM', 'GROSS HALL 104, 105, 270'],
+  ['DESIGN CHALLENGE', '3:00PM', '5:00PM', 'GROSS HALL'],
+  ['CLOSING SPEECH', '5:00PM', '6:00PM', 'AHMADIEH FAMILY AUDITORIUM (GROSS HALL 107)'],
 ];
 
 export const Schedule = () => {
@@ -24,7 +24,7 @@ export const Schedule = () => {
         <React.Fragment key={i}>
           <DesktopEvent>{event}</DesktopEvent>
           <DesktopTimeLocation>
-            {start}-{end} IN THE {location}
+            {start}-{end} @ {location}
           </DesktopTimeLocation>
         </React.Fragment>
       ))}
@@ -63,7 +63,7 @@ const DesktopTable = styled.div`
   justify-content: space-between;
   grid-gap: 1em;
   margin: 0 auto;
-  max-width: 540px;
+  max-width: 700px;
 `;
 
 const DesktopEvent = styled.span`
