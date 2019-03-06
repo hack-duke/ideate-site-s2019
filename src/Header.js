@@ -43,7 +43,7 @@ const IdeateTitle = styled.h1`
   letter-spacing: 0.2em;
   font-weight: 600;
   margin-top: 40px;
-  margin-bottom: 40px;
+  margin-bottom: 100px;
   text-align: center;
 `;
 

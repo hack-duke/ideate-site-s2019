@@ -9,12 +9,12 @@ import SchedulePlanet from './img/schedule-planet.svg';
 
 const scheduleData = [
   ['CHECK-IN', '10:00AM', '12:00PM', 'MAIN LOBBY'],
-  ['KEYNOTE SPEECH', '11:00AM', '12:00PM', 'AHMADIEH FAMILY AUDITORIUM (GROSS HALL 107)'],
+  ['KEYNOTE SPEECH', '11:00AM', '12:00PM', 'AHMADIEH FAMILY AUDITORIUM'],
   ['WORKSHOP SESSION 1', '12:00PM', '1:00PM', 'GROSS HALL 104, 105, 270'],
   ['LUNCH', '1:00PM', '2:00PM', 'MAIN LOBBY, GROSS HALL 230 & 250'],
   ['WORKSHOP SESSION 2', '2:00PM', '3:00PM', 'GROSS HALL 104, 105, 270'],
   ['DESIGN CHALLENGE', '3:00PM', '5:00PM', 'GROSS HALL'],
-  ['CLOSING SPEECH', '5:00PM', '6:00PM', 'AHMADIEH FAMILY AUDITORIUM (GROSS HALL 107)'],
+  ['CLOSING SPEECH', '5:00PM', '6:00PM', 'AHMADIEH FAMILY AUDITORIUM'],
 ];
 
 export const Schedule = () => {
@@ -72,7 +72,7 @@ const DesktopEvent = styled.span`
 `;
 
 const DesktopTimeLocation = styled.span`
-  text-align: right;
+  text-align: left;
   ${bodyTextStyle}
   ${shadowBg};
 `;
