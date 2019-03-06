@@ -8,13 +8,13 @@ import styled from '@emotion/styled';
 import SchedulePlanet from './img/schedule-planet.svg';
 
 const scheduleData = [
-  ['CHECK-IN', '10:00', '12:00', 'ATRIUM'],
-  ['KEYNOTE SPEECH', '11:00', '12:00', 'ATRIUM'],
-  ['WORKSHOP SESSION 1', '12:00', '1:00', 'ATRIUM'],
-  ['LUNCH', '1:00', '2:00', 'ATRIUM'],
-  ['WORKSHOP SESSION 2', '2:00', '3:00', 'ATRIUM'],
-  ['DESIGN CHALLENGE', '3:00', '4:00', 'ATRIUM'],
-  ['CLOSING SPEECH', '7:00', '8:00', 'ATRIUM'],
+  ['CHECK-IN', '10:00', '12:00', 'MAIN LOBBY'],
+  ['KEYNOTE SPEECH', '11:00', '12:00', 'AHMADIEH FAMILY AUDITORIUM (GROSS HALL 107)'],
+  ['WORKSHOP SESSION 1', '12:00', '1:00', 'GROSS HALL 104, 105, 270'],
+  ['LUNCH', '1:00', '2:00', 'MAIN LOBBY, GROSS HALL 230 & 250'],
+  ['WORKSHOP SESSION 2', '2:00', '3:00', 'GROSS HALL 104, 105, 270'],
+  ['DESIGN CHALLENGE', '3:00', '5:00', 'GROSS HALL'],
+  ['CLOSING SPEECH', '5:00', '6:00', 'AHMADIEH FAMILY AUDITORIUM (GROSS HALL 107)'],
 ];
 
 export const Schedule = () => {

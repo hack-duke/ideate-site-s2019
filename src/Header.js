@@ -57,8 +57,9 @@ export const Header = () => (
     <Sun src={SunImage} />
     <HeaderText>
       <IdeateTitle>IDEATE</IdeateTitle>
-      <Subtitle>April 6th, 2019</Subtitle>
-      <Subtitle>Duke University</Subtitle>
+      <Subtitle>A student innovation & design conference </Subtitle>
+      <Subtitle>April 6th, 2019 @ Duke University</Subtitle>
+      <Subtitle>Gross Hall</Subtitle>
       <Button
         href="/apply"
         css={css`
