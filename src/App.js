@@ -32,6 +32,12 @@ const globalStyles = css`
   button {
     font-family: 'Work Sans', sans-serif;
   }
+
+  @keyframes fadeinout {
+    0% { opacity: 1; }
+    50% { opacity: 0.5; }
+    100% { opacity: 1; }
+  }
 `;
 
 const App = () => (

@@ -5,7 +5,7 @@ import { css } from '@emotion/core';
 import { GRAD_START } from './ui.js';
 import { bodyTextStyle } from './Section.js';
 import { Button } from './Button.js';
-import SunImage from './img/sun.svg';
+import { Sun } from './Sun.js';
 
 const HeaderContainer = styled.div`
   height: 100vh;
@@ -20,15 +20,6 @@ const HeaderContainer = styled.div`
   @media screen and (min-width: 1840px) {
     margin-bottom: 50px;
   }
-`;
-
-const Sun = styled.img`
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 0;
-  margin: 0 auto;
-  max-height: 225px;
 `;
 
 const HeaderText = styled.div`
@@ -59,7 +50,6 @@ const Date = styled.h3`
   line-height: 1.333em;
   font-weight: bold;
   ${bodyTextStyle}
-  fo
 `;
 
 const Location = styled.h3`
@@ -70,7 +60,7 @@ const Location = styled.h3`
 
 export const Header = () => (
   <HeaderContainer>
-    <Sun src={SunImage} />
+    <Sun />
     <HeaderText>
       <IdeateTitle>IDEATE</IdeateTitle>
       <Description>A student innovation & design conference </Description>
