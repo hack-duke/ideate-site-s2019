@@ -16,7 +16,7 @@ export const Footer = () => (
         <Button href="/apply">Apply Now</Button>
       </CenterButton>
     </Section>
-    <Asteroids />
+    {/* <Asteroids /> */}
   </>
 );
 

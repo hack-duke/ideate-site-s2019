@@ -42,7 +42,8 @@ export const Speakers = () => (
   <>
     <Planet src={SpeakersPlanet} />
     <Section title="Speakers">
-      <GridContainer>
+    To be announced!
+      /* <GridContainer>
         <GridItem>
           <SpeakerPlanet src={'https://placekitten.com/200/200'} />
           <Subtitle>First Last</Subtitle>
@@ -83,6 +84,7 @@ export const Speakers = () => (
           </Paragraph>
         </GridItem>
       </GridContainer>
+      */
     </Section>
   </>
 );

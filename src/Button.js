@@ -8,7 +8,7 @@ export const Button = styled.a`
   border: none;
   text-decoration: none;
   font-size: 1.25em;
-  padding: 12px 24px;
+  padding: 18px 36px;
   border-radius: 4px;
   cursor: pointer;
   box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.25);
