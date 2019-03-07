@@ -2,7 +2,7 @@ import React from 'react';
 import styled from '@emotion/styled';
 
 import { Planet } from './Planet.js';
-import { Section, Subtitle, Paragraph } from './Section.js';
+import { Section, Subtitle, Paragraph, bodyTextStyle } from './Section.js';
 
 import SpeakersPlanet from './img/speakers-planet.svg';
 
@@ -38,12 +38,17 @@ const SpeakerPlanet = styled.img`
   border: 2px solid white;
 `;
 
+const TBAText = styled.div`
+  ${bodyTextStyle};
+  text-align: center;
+`;
+
 export const Speakers = () => (
   <>
     <Planet src={SpeakersPlanet} />
     <Section title="Speakers">
-    To be announced!
-      /* <GridContainer>
+      <TBAText>To be announced!</TBAText>
+      {/* <GridContainer>
         <GridItem>
           <SpeakerPlanet src={'https://placekitten.com/200/200'} />
           <Subtitle>First Last</Subtitle>
@@ -84,7 +89,7 @@ export const Speakers = () => (
           </Paragraph>
         </GridItem>
       </GridContainer>
-      */
+      */}
     </Section>
   </>
 );

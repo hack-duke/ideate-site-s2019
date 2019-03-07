@@ -14,7 +14,7 @@ const scheduleData = [
   ['LUNCH', '1:00PM', '2:00PM', 'MAIN LOBBY, GROSS HALL 230 & 250'],
   ['WORKSHOP SESSION 2', '2:00PM', '3:00PM', 'GROSS HALL 104, 105, 270'],
   ['DESIGN CHALLENGE', '3:00PM', '5:00PM', 'GROSS HALL'],
-  ['CLOSING SPEECH', '5:00PM', '6:00PM', 'AHMADIEH FAMILY AUDITORIUM'],
+  ['CLOSING SPEECH', '5:00PM', '6:00PM', 'AHMADIEH FAMILY AUDITORIUM']
 ];
 
 export const Schedule = () => {
@@ -90,9 +90,7 @@ const MobileTime = styled.span`
   ${shadowBg};
 `;
 
-const MobileLocation = styled.span`
-  ${shadowBg};
-`;
+const MobileLocation = styled.span``;
 
 const MobileEvent = styled.div`
   font-weight: 600;
