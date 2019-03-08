@@ -34,21 +34,19 @@ const IdeateTitle = styled.h1`
   letter-spacing: 0.2em;
   font-weight: 600;
   margin-top: 40px;
-  margin-bottom: 100px;
+  margin-bottom: 60px;
   text-align: center;
 `;
 
 const Description = styled.h3`
   font-size: 1.5em;
   line-height: 1.333em;
-  font-style: italic;
   ${bodyTextStyle}
 `;
 
 const Date = styled.h3`
   font-size: 1.5em;
   line-height: 1.333em;
-  font-weight: bold;
   ${bodyTextStyle}
 `;
 
@@ -64,8 +62,7 @@ export const Header = () => (
     <HeaderText>
       <IdeateTitle>IDEATE</IdeateTitle>
       <Description>A student innovation & design conference </Description>
-      <Date>April 6th, 2019 @ Duke University</Date>
-      <Location>Gross Hall</Location>
+      <Date>April 6th, 2019 | Duke University</Date>
       <Button
         href="/apply"
         css={css`
