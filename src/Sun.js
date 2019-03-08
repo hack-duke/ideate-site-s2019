@@ -8,6 +8,7 @@ const sunStyles = css`
   top: 0;
   margin: 0 auto;
   max-height: 225px;
+  width: 100%;
 `;
 
 const glowAnim = css`
@@ -17,8 +18,6 @@ const glowAnim = css`
 export const Sun = () => (
   <svg
     css={sunStyles}
-    width="1254"
-    height="387"
     viewBox="0 0 1254 387"
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
