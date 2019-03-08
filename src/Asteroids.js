@@ -131,6 +131,7 @@ export const Asteroids = () => (
               href="https://www.facebook.com/hackduke/"
               target="_blank"
               rel="noopener"
+              alt="Facebook"
             >
               <g>
                 <path
@@ -147,6 +148,7 @@ export const Asteroids = () => (
               href="https://medium.com/@hackduke"
               target="_blank"
               rel="noopener"
+              alt="Medium"
             >
               <g>
                 <path
@@ -163,6 +165,7 @@ export const Asteroids = () => (
               href="https://twitter.com/hackduke"
               target="_blank"
               rel="noopener"
+              alt="Twitter"
             >
               <g>
                 <path
@@ -229,6 +232,7 @@ export const Asteroids = () => (
               href="https://www.facebook.com/hackduke/"
               target="_blank"
               rel="noopener"
+              alt="Facebook"
             >
               <g>
                 <path
@@ -266,6 +270,7 @@ export const Asteroids = () => (
               href="https://medium.com/@hackduke"
               target="_blank"
               rel="noopener"
+              alt="Medium"
             >
               <g>
                 <path
@@ -282,6 +287,7 @@ export const Asteroids = () => (
               href="https://twitter.com/hackduke"
               target="_blank"
               rel="noopener"
+              alt="Twitter"
             >
               <g>
                 <path
