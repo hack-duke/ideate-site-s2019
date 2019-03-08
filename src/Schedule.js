@@ -5,6 +5,7 @@ import { Planet } from './Planet.js';
 import { Section, bodyTextStyle, shadowBg } from './Section.js';
 import styled from '@emotion/styled';
 
+import BrowserOnly from './BrowserOnly';
 import SchedulePlanet from './img/schedule-planet.svg';
 
 const scheduleData = [
@@ -46,14 +47,14 @@ export const Schedule = () => {
   );
 
   return (
-    <>
+    <BrowserOnly>
       <Planet src={SchedulePlanet} />
       <Section title="Schedule">
         <Media query={{ minWidth: 500 }}>
           {matches => (matches ? scheduleDesktopItems : scheduleMobileItems)}
         </Media>
       </Section>
-    </>
+    </BrowserOnly>
   );
 };
 
