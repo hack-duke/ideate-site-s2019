@@ -1,6 +1,17 @@
 import React from 'react';
 import Media from 'react-media';
 import BrowserOnly from './BrowserOnly';
+import styled from '@emotion/styled';
+
+const AsteroidLink = styled.a`
+  transition: transform 0.3s;
+  transform-origin: center;
+  -webkit-tap-highlight-color: transparent;
+
+  :hover {
+    transform: scale(1.025);
+  }
+`;
 
 export const Asteroids = () => (
   <BrowserOnly>
@@ -127,7 +138,7 @@ export const Asteroids = () => (
               d="M1784.45 51.2389C1780.1 59.8609 1781.21 88.1874 1766.55 78.2064C1760.19 73.8744 1760.47 85.5485 1756.53 84.3556C1755.54 84.7891 1754.6 82.8995 1753.61 80.3393L1746.19 70.1192C1744.31 70.9418 1739.91 76.9632 1738.07 77.6582C1728.72 81.1916 1723.4 77.0454 1727.62 67.5671C1737.23 45.9821 1736.81 52.9211 1741.31 54.2845C1745.81 55.6479 1750.03 45.8365 1756.16 53.6449C1769.5 70.6579 1800.17 16.6868 1799.61 26.5423C1798.88 39.4235 1797.67 31.5346 1791.83 38.0312C1785.81 44.7276 1788.29 38.557 1784.45 51.2389Z"
               fill="#8C8C8C"
             />
-            <a
+            <AsteroidLink
               href="https://www.facebook.com/hackduke/"
               target="_blank"
               rel="noopener"
@@ -143,8 +154,8 @@ export const Asteroids = () => (
                   fill="#fff"
                 />
               </g>
-            </a>
-            <a
+            </AsteroidLink>
+            <AsteroidLink
               href="https://medium.com/@hackduke"
               target="_blank"
               rel="noopener"
@@ -160,8 +171,8 @@ export const Asteroids = () => (
                   fill="#fff"
                 />
               </g>
-            </a>
-            <a
+            </AsteroidLink>
+            <AsteroidLink
               href="https://twitter.com/hackduke"
               target="_blank"
               rel="noopener"
@@ -181,7 +192,7 @@ export const Asteroids = () => (
                   fill="#fff"
                 />
               </g>
-            </a>
+            </AsteroidLink>
             <path
               d="M1905.61 125.951C1914.06 113.687 1900.08 103.283 1892.04 99.6144C1880.31 96.3629 1877.96 87.3409 1871.59 82.2786C1865.42 77.3674 1852.64 80.5736 1840.53 78.735C1828.59 76.9225 1836.22 94.2779 1849.75 96.256C1863.28 98.234 1862.78 114.071 1861.73 117.839C1860.69 121.607 1860.98 131.071 1881.06 139.178C1897.13 145.664 1912.44 138.076 1908.62 130.844C1909.54 127.548 1901.94 131.274 1905.61 125.951Z"
               fill="#6A6A6A"
@@ -228,7 +239,7 @@ export const Asteroids = () => (
               d="M-2.31493 84.2906C0.378807 85.1751 0.814037 84.7331 1.97399 83.8364C2.95751 83.9145 3.12224 83.1293 4.11222 82.952C4.63287 82.8587 5.20665 82.3543 5.43929 82.103C5.79449 81.7191 6.58507 81.3763 7.18238 81.1232C7.82987 80.8489 8.32682 80.4962 8.98267 80.2399C9.60851 79.9953 10.7884 80.2548 11.2795 80.0629C12.1082 79.739 13.116 80.0972 13.3385 79.4197C13.6386 78.5056 13.4739 77.5078 13.6217 76.5551C13.7596 75.6664 13.4989 75.0107 12.5242 74.108C10.9912 72.6883 8.7803 72.1026 6.4032 71.322C3.68348 70.4289 1.23469 70.0343 -1.19215 70.1041C-3.03715 70.1571 -2.6379 71.8115 -2.39073 72.7802C-1.64257 75.7124 -5.75294 76.8739 -6.14396 79.3944L-6.14703 79.4142C-6.309 80.4578 -6.55884 82.0675 -4.94726 83.271C-4.28781 83.7634 -3.17696 84.0075 -2.31493 84.2906Z"
               fill="#8C8C8C"
             />
-            <a
+            <AsteroidLink
               href="https://www.facebook.com/hackduke/"
               target="_blank"
               rel="noopener"
@@ -244,7 +255,7 @@ export const Asteroids = () => (
                   fill="#fff"
                 />
               </g>
-            </a>
+            </AsteroidLink>
             <path
               d="M25.4072 127.481C29.2364 121.925 22.9024 117.211 19.2567 115.549C13.9452 114.076 12.8789 109.988 9.99508 107.694C7.1973 105.469 1.40928 106.922 -4.07971 106.089C-9.49108 105.267 -6.03289 113.131 0.0985667 114.027C6.23003 114.923 5.99993 122.099 5.52643 123.806C5.05293 125.513 5.18368 129.801 14.285 133.474C21.566 136.413 28.5036 132.975 26.7723 129.698C27.1866 128.205 23.7452 129.893 25.4072 127.481Z"
               fill="#6A6A6A"
@@ -266,7 +277,7 @@ export const Asteroids = () => (
               fill="#8C8C8C"
             />
             <ellipse cx="-15.5" cy="27" rx="19.5" ry="21" fill="#98A3BB" />
-            <a
+            <AsteroidLink
               href="https://medium.com/@hackduke"
               target="_blank"
               rel="noopener"
@@ -282,8 +293,8 @@ export const Asteroids = () => (
                   fill="#fff"
                 />
               </g>
-            </a>
-            <a
+            </AsteroidLink>
+            <AsteroidLink
               href="https://twitter.com/hackduke"
               target="_blank"
               rel="noopener"
@@ -303,7 +314,7 @@ export const Asteroids = () => (
                   fill="#fff"
                 />
               </g>
-            </a>
+            </AsteroidLink>
           </svg>
         )
       }

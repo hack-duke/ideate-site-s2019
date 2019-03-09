@@ -62,7 +62,7 @@ export const Header = () => (
     <HeaderText>
       <IdeateTitle>IDEATE</IdeateTitle>
       <Description>A student innovation & design conference </Description>
-      <Date>April 6th, 2019 | Gross Hall</Date>
+      <Date>April 6th, 2019 at Gross Hall</Date>
       <Button
         href="/apply"
         css={css`
