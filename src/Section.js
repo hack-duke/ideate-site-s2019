@@ -28,6 +28,7 @@ export const Subtitle = styled.h3`
 
 export const bodyTextStyle = css`
   opacity: 0.75;
+  font-weight: 300;
 `;
 
 export const Paragraph = styled.p`

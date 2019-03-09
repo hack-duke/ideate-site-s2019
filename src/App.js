@@ -34,9 +34,15 @@ const globalStyles = css`
   }
 
   @keyframes fadeinout {
-    0% { opacity: 1; }
-    50% { opacity: 0.5; }
-    100% { opacity: 1; }
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0.5;
+    }
+    100% {
+      opacity: 1;
+    }
   }
 `;
 
@@ -46,7 +52,7 @@ const App = () => (
     <Head>
       <title>IDEATE</title>
       <link
-        href="https://fonts.googleapis.com/css?family=Work+Sans:400,600"
+        href="https://fonts.googleapis.com/css?family=Work+Sans:300,400,600"
         rel="stylesheet"
       />
       <meta name="theme-color" content={BG_COLOR} />

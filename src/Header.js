@@ -30,7 +30,7 @@ const HeaderText = styled.div`
 `;
 
 const IdeateTitle = styled.h1`
-  font-size: 3.333em;
+  font-size: 3.5em;
   letter-spacing: 0.2em;
   font-weight: 600;
   margin-top: 40px;
