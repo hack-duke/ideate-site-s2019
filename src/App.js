@@ -1,5 +1,4 @@
 import React from 'react';
-import styled from '@emotion/styled';
 import { Global, css } from '@emotion/core';
 import { Head } from 'react-static';
 import 'minireset.css/minireset.css';
@@ -32,18 +31,6 @@ const globalStyles = css`
   button {
     font-family: 'Work Sans', sans-serif;
   }
-
-  @keyframes fadeinout {
-    0% {
-      opacity: 1;
-    }
-    50% {
-      opacity: 0.5;
-    }
-    100% {
-      opacity: 1;
-    }
-  }
 `;
 
 const App = () => (
@@ -56,6 +43,15 @@ const App = () => (
         rel="stylesheet"
       />
       <meta name="theme-color" content={BG_COLOR} />
+      <meta
+        property="og:image"
+        content="https://ideate.hackduke.org/og-thumbnail.jpg"
+      />
+      <meta property="og:title" content="IDEATE" />
+      <meta
+        property="og:description"
+        content="A student innovation & design conference - April 6th, 2019 at Gross Hall"
+      />
     </Head>
     <Header />
     <About />

@@ -20,6 +20,18 @@ const HeaderContainer = styled.div`
   @media screen and (min-width: 1840px) {
     margin-bottom: 50px;
   }
+
+  @keyframes fadeinout {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0.5;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
 `;
 
 const HeaderText = styled.div`
