@@ -5,6 +5,7 @@ import { Planet } from './Planet.js';
 import { Section, Subtitle, Paragraph, bodyTextStyle } from './Section.js';
 
 import SpeakersPlanet from './img/speakers-planet.svg';
+import HenrikPhoto from './img/henrik-photo.jpg';
 
 const GridContainer = styled.div`
   display: grid;
@@ -12,6 +13,11 @@ const GridContainer = styled.div`
   grid-gap: 30px;
   width: 100%;
 
+  /* Remove once we have more speakers */
+  max-width: 600px;
+  margin: 0 auto;
+
+  /*
   @media screen and (min-width: 480px) {
     grid-row-gap: 50px;
     grid-template-columns: repeat(2, 1fr);
@@ -19,6 +25,7 @@ const GridContainer = styled.div`
   @media screen and (min-width: 768px) {
     grid-template-columns: repeat(3, 1fr);
   }
+  */
 `;
 
 const GridItem = styled.div`
@@ -47,49 +54,21 @@ export const Speakers = () => (
   <>
     <Planet src={SpeakersPlanet} />
     <Section title="Speakers">
-      <TBAText>To be announced!</TBAText>
-      {/* <GridContainer>
+      <GridContainer>
         <GridItem>
-          <SpeakerPlanet src={'https://placekitten.com/200/200'} />
-          <Subtitle>First Last</Subtitle>
+          <SpeakerPlanet src={HenrikPhoto} />
+          <Subtitle>Henrik Rydberg | Keynote Speaker</Subtitle>
           <Paragraph>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum
-          </Paragraph>
-        </GridItem>
-        <GridItem>
-          <SpeakerPlanet src={'https://placekitten.com/200/500'} />
-          <Subtitle>First Last</Subtitle>
-          <Paragraph>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum
-          </Paragraph>
-        </GridItem>
-        <GridItem>
-          <SpeakerPlanet src={'https://placebear.com/200/300'} />
-          <Subtitle>First Last</Subtitle>
-          <Paragraph>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum
+            Design is at the heart of building successful businesses and
+            products, right? In his 17 years of leading design teams, Henrik has
+            crafter design centric organizations and grown designers to become
+            most influential people in the company—and in his talk he removes
+            design from the center of it all. Henrik proposes an inclusive world
+            view and approach for designers that increases their influence, and
+            makes them more impactful.
           </Paragraph>
         </GridItem>
       </GridContainer>
-      */}
     </Section>
   </>
 );
