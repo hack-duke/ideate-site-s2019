@@ -64,7 +64,7 @@ export const Workshops = () => (
           <div>
             <SpeakerTitle>Brandon Dorn</SpeakerTitle>
             <WorkshopTitle>
-              Usable,Beautiful, Good: Human Values in Design
+              Usable, Beautiful, Good: Human Values in Design
             </WorkshopTitle>
             <Paragraph>
               Originally from Illinois, where he studied English Literature and
@@ -105,6 +105,55 @@ export const Workshops = () => (
               POP V R installation series. Mike is currently Lead Immersive
               Technologies Developer at the award-winning Durham-based software
               development firm CrossComm.
+            </Paragraph>
+          </div>
+          <SpeakerPlanet src={HenrikPhoto} />
+          <div>
+            <SpeakerTitle>Shreya Shankar</SpeakerTitle>
+            <WorkshopTitle>Visualizing Ideas</WorkshopTitle>
+            <Paragraph>
+              I am a Mechanical Engineering & Visual Arts major graduating in
+              May. Ideate holds a very special place in my heart, because I
+              found and fell in love with design through this conference almost
+              four years ago. As a designer, I'm captivated by the ability we
+              have of creating the future and passionate about using good design
+              to facilitate the growth of our society.
+            </Paragraph>
+          </div>
+          <SpeakerPlanet src={HenrikPhoto} />
+
+          <div>
+            <SpeakerTitle>Ethan Geyer and Rachael Dickens</SpeakerTitle>
+            <WorkshopTitle>TBD</WorkshopTitle>
+            <Paragraph>
+              Ethan Geyer is a Sr. User Experience Designer and Design Thinker
+              at IBM, where he balances design at scale, designing for Ai, and
+              the complexities of global enterprise software all while sweating
+              the small stuff and advocating for the user. He believes in the
+              foundational power of relationships to affect outcomes in fast
+              moving product teams and relishes the opportunity to tackle
+              cultural transformation at the organizational level. In a past
+              life he worked with at-risk youth and young adults in the desert
+              wilds of Utah — starting fires by rubbing sticks together and
+              sleeping under the stars. Outside of work, he loves to explore
+              wild places with his wife, daughter and their hound dog.
+            </Paragraph>
+          </div>
+          <SpeakerPlanet src={HenrikPhoto} />
+          <div>
+            <Paragraph>
+              Rachael Dickens is a Sr. User Experience Designer and Design
+              Thinker. She joined IBM in 2013 after receiving her Master of
+              Graphic Design and Certificate of Accomplishment in Teaching from
+              North Carolina State University. She led AI design for Watson
+              Workspace and Watson Work Services and now leads design for
+              multiple products in IBM’s Marketing, Commerce and Supply chain
+              portfolio. An experienced Design Thinking facilitator, she is
+              passionate about co-creating innovative user experiences and
+              bringing Design Thinking to those outside of the
+              discipline—regularly collaborating with users, partners,
+              developers, researchers and more. Outside of work, she loves to
+              build things, grow things and cook things.
             </Paragraph>
           </div>
         </GridItem>
