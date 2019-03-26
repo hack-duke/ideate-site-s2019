@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from '@emotion/styled';
+import { css } from '@emotion/core';
 
 import { Planet } from './Planet.js';
 import { Section, Subtitle, Paragraph, bodyTextStyle } from './Section.js';
@@ -12,7 +13,7 @@ const GridContainer = styled.div`
   grid-template-columns: 1fr;
   grid-gap: 30px;
   width: 100%;
-  max-width: 600px;
+  max-width: 640px;
   margin: 0 auto;
 `;
 
@@ -37,9 +38,20 @@ const SpeakerPlanet = styled.img`
   margin: 0 auto;
 `;
 
-const TBAText = styled.div`
-  ${bodyTextStyle};
-  text-align: center;
+const SpeakerTitle = props => (
+  <Subtitle
+    {...props}
+    css={css`
+      margin-bottom: 0.2em;
+    `}
+  />
+);
+
+const WorkshopTitle = styled.h4`
+  font-size: 0.9em;
+  font-weight: 600;
+  margin-bottom: 1.2em;
+  text-transform: uppercase;
 `;
 
 export const Speakers = () => (
@@ -50,15 +62,18 @@ export const Speakers = () => (
         <GridItem>
           <SpeakerPlanet src={HenrikPhoto} />
           <div>
-            <Subtitle>Henrik Rydberg | Keynote Speaker</Subtitle>
+            <SpeakerTitle>Henrik Rydberg</SpeakerTitle>
+            <WorkshopTitle>Keynote Speaker</WorkshopTitle>
             <Paragraph>
               Design is at the heart of building successful businesses and
               products, right? In his 17 years of leading design teams, Henrik
-              has crafter design centric organizations and grown designers to
-              become most influential people in the company—and in his talk he
-              removes design from the center of it all. Henrik proposes an
-              inclusive world view and approach for designers that increases
-              their influence, and makes them more impactful.
+              has crafted design-centric organizations and molded designers to
+              become the most influential people in their companies—and in his
+              talk he removes design from the center of it all. Henrik proposes
+              an inclusive worldview and approach for designers that increases
+              their influence and makes them more impactful. Henrik is currently
+              the VP of Design at Jetty, a financial services startup for
+              everyday renters.
             </Paragraph>
           </div>
         </GridItem>
