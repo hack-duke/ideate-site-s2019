@@ -26,11 +26,10 @@ const GridContainer = styled.div`
 const GridItem = styled.div`
   display: grid;
   grid-template-columns: 1fr;
-  grid-gap: 30px;
+  grid-gap: 50px;
 
   @media screen and (min-width: 768px) {
     grid-template-columns: auto 1fr;
-    grid-gap: 50px;
   }
 `;
 
