@@ -17,19 +17,24 @@ import RachaelDickens from './img/speakers/rachael-dickens.jpg';
 const GridContainer = styled.div`
   display: grid;
   grid-template-columns: 1fr;
-  grid-gap: 30px;
   width: 100%;
   max-width: 640px;
   margin: 0 auto;
+  grid-gap: 50px;
+
+  @media screen and (min-width: 768px) {
+    grid-gap: 30px;
+  }
 `;
 
 const GridItem = styled.div`
   display: grid;
   grid-template-columns: 1fr;
-  grid-gap: 50px;
+  grid-gap: 30px;
 
   @media screen and (min-width: 768px) {
     grid-template-columns: auto 1fr;
+    grid-gap: 50px;
   }
 `;
 
