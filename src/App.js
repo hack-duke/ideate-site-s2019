@@ -6,7 +6,6 @@ import 'minireset.css/minireset.css';
 import { Header } from './Header.js';
 import { About } from './About.js';
 import { Speakers } from './Speakers.js';
-import { Workshops } from './Workshops.js';
 import { Schedule } from './Schedule.js';
 import { FAQs } from './FAQs.js';
 import { Footer } from './Footer.js';
@@ -57,7 +56,6 @@ const App = () => (
     <Header />
     <About />
     <Speakers />
-    <Workshops />
     <Schedule />
     <FAQs />
     <Footer />
