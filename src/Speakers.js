@@ -3,7 +3,7 @@ import styled from '@emotion/styled';
 import { css } from '@emotion/core';
 
 import { Planet } from './Planet.js';
-import { Section, Subtitle, Paragraph, bodyTextStyle } from './Section.js';
+import { Section, Subtitle, Paragraph, shadowBg } from './Section.js';
 
 import SpeakersPlanet from './img/speakers-planet.svg';
 import HenrikRydberg from './img/speakers/henrik-rydberg.jpg';
@@ -62,6 +62,7 @@ const WorkshopTitle = styled.h4`
   font-weight: 600;
   margin-bottom: 1.2em;
   text-transform: uppercase;
+  ${shadowBg};
 `;
 
 export const Speakers = () => (
@@ -146,12 +147,12 @@ export const Speakers = () => (
             <SpeakerTitle>Shreya Shankar</SpeakerTitle>
             <WorkshopTitle>Visualizing Ideas</WorkshopTitle>
             <Paragraph>
-              I am a Mechanical Engineering & Visual Arts major graduating in
-              May. Ideate holds a very special place in my heart, because I
-              found and fell in love with design through this conference almost
-              four years ago. As a designer, I'm captivated by the ability we
-              have of creating the future and passionate about using good design
-              to facilitate the growth of our society.
+              Shreya is a Mechanical Engineering & Visual Arts major graduating
+              in May. Ideate holds a very special place in her heart, because
+              she found and fell in love with design through this conference
+              almost four years ago. As a designer, Shreya is captivated by the
+              ability we have of creating the future and passionate about using
+              good design to facilitate the growth of our society.
             </Paragraph>
           </div>
         </GridItem>
@@ -159,10 +160,12 @@ export const Speakers = () => (
           <SpeakerPlanet src={EthanGeyer} />
           <div>
             <SpeakerTitle>Ethan Geyer</SpeakerTitle>
-            <WorkshopTitle>TBD</WorkshopTitle>
+            <WorkshopTitle>
+              Designing for AI (and Actually Delivering It)
+            </WorkshopTitle>
             <Paragraph>
               Ethan Geyer is a Sr. User Experience Designer and Design Thinker
-              at IBM, where he balances design at scale, designing for Ai, and
+              at IBM, where he balances design at scale, designing for AI, and
               the complexities of global enterprise software all while sweating
               the small stuff and advocating for the user. He believes in the
               foundational power of relationships to affect outcomes in fast
@@ -179,7 +182,9 @@ export const Speakers = () => (
           <SpeakerPlanet src={RachaelDickens} />
           <div>
             <SpeakerTitle>Rachael Dickens</SpeakerTitle>
-            <WorkshopTitle>TBD</WorkshopTitle>
+            <WorkshopTitle>
+              Designing for AI (and Actually Delivering It)
+            </WorkshopTitle>
             <Paragraph>
               Rachael Dickens is a Sr. User Experience Designer and Design
               Thinker. She joined IBM in 2013 after receiving her Master of
