@@ -155,11 +155,10 @@ export const Speakers = () => (
             </Paragraph>
           </div>
         </GridItem>
-        {/*<GridItem>
+        <GridItem>
           <SpeakerPlanet src={EthanGeyer} />
-
           <div>
-            <SpeakerTitle>Ethan Geyer and Rachael Dickens</SpeakerTitle>
+            <SpeakerTitle>Ethan Geyer</SpeakerTitle>
             <WorkshopTitle>TBD</WorkshopTitle>
             <Paragraph>
               Ethan Geyer is a Sr. User Experience Designer and Design Thinker
@@ -179,6 +178,8 @@ export const Speakers = () => (
         <GridItem>
           <SpeakerPlanet src={RachaelDickens} />
           <div>
+            <SpeakerTitle>Rachael Dickens</SpeakerTitle>
+            <WorkshopTitle>TBD</WorkshopTitle>
             <Paragraph>
               Rachael Dickens is a Sr. User Experience Designer and Design
               Thinker. She joined IBM in 2013 after receiving her Master of
@@ -194,7 +195,7 @@ export const Speakers = () => (
               build things, grow things and cook things.
             </Paragraph>
           </div>
-        </GridItem>*/}
+        </GridItem>
       </GridContainer>
     </Section>
   </>
