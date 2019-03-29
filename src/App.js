@@ -13,6 +13,7 @@ import { BG_COLOR } from './ui.js';
 
 // See https://bugs.chromium.org/p/chromium/issues/detail?id=934314
 import Stars from './img/stars-bg.png';
+import Favicon from './img/favicon.png';
 
 const globalStyles = css`
   body {
@@ -52,6 +53,7 @@ const App = () => (
         property="og:description"
         content="A student innovation & design conference - April 6th, 2019 at Gross Hall"
       />
+      <link rel="icon" type="image/png" href={Favicon} />
     </Head>
     <Header />
     <About />
