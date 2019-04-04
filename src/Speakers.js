@@ -13,6 +13,7 @@ import ShreyaShankar from './img/speakers/shreya-shankar.jpg';
 import BrandonDorn from './img/speakers/brandon-dorn.jpg';
 import EthanGeyer from './img/speakers/ethan-geyer.jpg';
 import RachaelDickens from './img/speakers/rachael-dickens.jpg';
+import HarshaRam from './img/speakers/harsha-ram.jpg';
 
 const GridContainer = styled.div`
   display: grid;
@@ -201,6 +202,25 @@ export const Speakers = () => (
               discipline—regularly collaborating with users, partners,
               developers, researchers and more. Outside of work, she loves to
               build things, grow things and cook things.
+            </Paragraph>
+          </div>
+        </GridItem>
+        <GridItem>
+          <SpeakerPlanet src={HarshaRam} />
+          <div>
+            <SpeakerTitle>Harsha Ram</SpeakerTitle>
+            <WorkshopTitle>Design Thinking Workshop with Google</WorkshopTitle>
+            <Paragraph>
+              Harsha is a software engineer for Android Automotive. He works on
+              bringing Google applications like Assistant, Play Store to cars
+              that will use Android for their infotainment systems. Harsha
+              graduated from University of Florida with a master's degree in
+              Electrical and Computer Engineering. When he's not coding, he
+              likes to ride motorcycles, hike and travel. At hackathons, he
+              likes to help teams narrow in on their MVP and prepare a good
+              demo. He can help with some parts of Google Cloud Platform like
+              Firebase, App engine and the machine learning algorithms like
+              speech, vision, translation.
             </Paragraph>
           </div>
         </GridItem>
