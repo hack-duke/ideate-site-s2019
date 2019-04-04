@@ -8,7 +8,7 @@ import { Section, Subtitle, Paragraph, shadowBg } from './Section.js';
 import SpeakersPlanet from './img/speakers-planet.svg';
 import HenrikRydberg from './img/speakers/henrik-rydberg.jpg';
 import RachelKnickmeyer from './img/speakers/rachel-knickmeyer.jpg';
-import MikeHarris from './img/speakers/mike-harris.jpg';
+import DonShin from './img/speakers/don-shin.jpg';
 import ShreyaShankar from './img/speakers/shreya-shankar.jpg';
 import BrandonDorn from './img/speakers/brandon-dorn.jpg';
 import EthanGeyer from './img/speakers/ethan-geyer.jpg';
@@ -124,20 +124,23 @@ export const Speakers = () => (
           </div>
         </GridItem>
         <GridItem>
-          <SpeakerPlanet src={MikeHarris} />
+          <SpeakerPlanet src={DonShin} />
           <div>
-            <SpeakerTitle>Mike Harris</SpeakerTitle>
+            <SpeakerTitle>Don Shin</SpeakerTitle>
             <WorkshopTitle>Designing for VR</WorkshopTitle>
             <Paragraph>
-              Mike Harris is a Virtual and Augmented Reality developer from New
-              Orleans, Louisiana with over four years experience developing
-              applications on a variety of Virtual and Augmented Reality
-              platforms and devices. In addition to his commercial work, Mike is
-              also a passionate independent developer and has been featured as
-              part of the Toronto International Film Festival and The Verge’s
-              POP V R installation series. Mike is currently Lead Immersive
-              Technologies Developer at the award-winning Durham-based software
-              development firm CrossComm.
+              Don Shin is the founder of CrossComm, an award-winning mobile,
+              web, and immersive app development studio headquartered in Durham,
+              NC. Under Mr. Shin's leadership, the Durham, NC-based company has
+              been recognized as one of the leading mobile app developers in the
+              region by clutch.co, and has been nationally recognized as the the
+              Minority Technology Firm of the Year (2015) by the US Dept. of
+              Commerce. Mr. Shin graduated from Duke University (class of ’ 9)
+              with a BA in Computer Science, Minor in Music, and Certificate in
+              Film and Video; he is currently interested in exploring real-world
+              uses for immersive technologies such as Augmented and Virtual
+              Reality, as well as finding smart uses of blockchain for
+              enterprise.
             </Paragraph>
           </div>
         </GridItem>
