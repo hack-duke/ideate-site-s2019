@@ -4,7 +4,7 @@ import { css } from '@emotion/core';
 import { SHADOW_BG_COLOR } from './ui.js';
 
 export const shadowBg = css`
-  box-shadow: 0px 0px 15px 10px ${SHADOW_BG_COLOR};
+  box-shadow: 0px 0px 10px 10px ${SHADOW_BG_COLOR};
   background-color: ${SHADOW_BG_COLOR};
 `;
 

@@ -35,8 +35,8 @@ export const FAQs = () => (
         <GridItem>
           <Subtitle>Is this event open for everyone?</Subtitle>
           <Paragraph>
-            Due to venue capacity, we are only able to accept the first 200 that
-            apply. Registration will be open shortly!
+            Due to venue capacity, we are only able to accept the first 200
+            applicants.
           </Paragraph>
         </GridItem>
         <GridItem>

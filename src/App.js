@@ -6,7 +6,6 @@ import 'minireset.css/minireset.css';
 import { Header } from './Header.js';
 import { About } from './About.js';
 import { Speakers } from './Speakers.js';
-import { Workshops } from './Workshops.js';
 import { Schedule } from './Schedule.js';
 import { FAQs } from './FAQs.js';
 import { Footer } from './Footer.js';
@@ -14,6 +13,7 @@ import { BG_COLOR } from './ui.js';
 
 // See https://bugs.chromium.org/p/chromium/issues/detail?id=934314
 import Stars from './img/stars-bg.png';
+import Favicon from './img/favicon.png';
 
 const globalStyles = css`
   body {
@@ -53,11 +53,11 @@ const App = () => (
         property="og:description"
         content="A student innovation & design conference - April 6th, 2019 at Gross Hall"
       />
+      <link rel="icon" type="image/png" href={Favicon} />
     </Head>
     <Header />
     <About />
     <Speakers />
-    <Workshops />
     <Schedule />
     <FAQs />
     <Footer />
