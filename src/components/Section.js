@@ -1,10 +1,15 @@
 import React from 'react';
 import styled from 'styled-components';
 
-const Section = (props) => {
+const Section = ({
+  children,
+  sectionColor,
+  innerContainerStyles,
+  outerContainerStyles,
+}) => {
   return (
-    <OuterContainer sectionColor={props.sectionColor}>
-      <InnerContainer>{props.children}</InnerContainer>
+    <OuterContainer style={outerContainerStyles} sectionColor={sectionColor}>
+      <InnerContainer style={innerContainerStyles}>{children}</InnerContainer>
     </OuterContainer>
   );
 };
