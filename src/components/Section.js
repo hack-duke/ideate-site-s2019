@@ -23,6 +23,6 @@ const OuterContainer = styled.div`
 const InnerContainer = styled.div`
   width: 100%;
   max-width: 1200px;
-  padding: 20px;
+  padding: 150px 20px;
   margin: 0 auto;
 `;

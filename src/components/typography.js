@@ -14,6 +14,7 @@ export const BodyHeader = styled.h3`
 `;
 
 export const BodyText = styled.p`
-  font-size: 21px;
+  font-size: 24px;
+  font-weight: 300;
   color: ${palette.black};
 `;
