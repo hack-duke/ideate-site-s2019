@@ -50,6 +50,7 @@ const Subtitle = styled.p`
   color: #f8f0e7;
   text-align: center;
   padding-top: 200px;
+  margin-bottom: 40px;
 `;
 
 const IdeateLogo = styled.img`
