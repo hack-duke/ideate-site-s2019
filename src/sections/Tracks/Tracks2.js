@@ -1,13 +1,13 @@
 import React from 'react';
 import Section from 'components/Section';
 import { MainHeader } from 'components/typography';
-import TrackBlock from './TrackBlock.js';
-import trackInfo from './trackInfo';
+import TrackBlock from './TrackBlock2.js';
 
 import palette from 'assets/palette';
 import styled from 'styled-components';
+import trackInfo from './trackInfo';
 
-const Tracks = () => {
+const Tracks2 = () => {
   const trackBlockElems = trackInfo.map((info) => {
     return <TrackBlock info={info}/>;
   });
@@ -20,7 +20,7 @@ const Tracks = () => {
   );
 };
 
-export default Tracks;
+export default Tracks2;
 
 const MainContainer = styled.div`
   display: flex;
