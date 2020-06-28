@@ -8,7 +8,10 @@ import footerBackgroundImg from './components/footer-background.svg';
 
 const Footer = () => {
   return (
-    <Section sectionColor="#F8F0E7" innerContainerStyles={{ padding: 0 }}>
+    <Section
+      sectionColor="#F8F0E7"
+      innerContainerStyles={{ padding: 0, maxWidth: 1500 }}
+    >
       <ImgWrapper>
         <FooterHeader>READY TO CREATE YOUR OWN MOVEMENT?</FooterHeader>
         <div style={{ textAlign: 'center' }}>
