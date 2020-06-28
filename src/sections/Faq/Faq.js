@@ -21,7 +21,10 @@ const Faq = () => {
   });
 
   return (
-    <Section sectionColor={palette.black} innerContainerStyles={{ padding: 0 }}>
+    <Section
+      sectionColor={palette.black}
+      innerContainerStyles={{ paddingTop: 30, paddingBottom: 30 }}
+    >
       <ImgWrapper>
         <MainHeader style={{ color: palette.white, marginBottom: 50 }}>
           FAQ
@@ -56,5 +59,5 @@ const ImgWrapper = styled.div`
   padding-bottom: 200px;
   background-image: url(${faqBackgroundImg});
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
 `;
