@@ -3,10 +3,12 @@ import { BodyHeader, BodyText } from 'components/typography';
 
 import styled from 'styled-components';
 
-const SpeakerBlock = ({ info }) => {
+const SpeakerBlock = ({ info, imgSrc, imgStyle }) => {
   return (
     <Container>
-      <ImgContainer />
+      <ImgContainer>
+        <Icon src={imgSrc} imgStyle={imgStyle} />
+      </ImgContainer>
       <InfoContainer>
         <BodyHeader>{info.name}</BodyHeader>
         <BodyHeader style={{ marginBottom: 20 }}>{info.title}</BodyHeader>
@@ -29,13 +31,18 @@ const Container = styled.div`
 
 const ImgContainer = styled.div`
   height: 125px;
-  width: 200px;
-  background-color: gray;
-  margin-right: 20px;
-  opacity: 0.4;
+  /* width: 200px; */
+  margin-right: 40px;
   border-radius: 6px;
+  flex-basis: 30%;
+  text-align: right;
+`;
+
+const Icon = styled.img`
+  width: 100%;
+  ${(props) => props.imgStyle}
 `;
 
 const InfoContainer = styled.div`
-  flex: 1;
+  flex-basis: 70%;
 `;
