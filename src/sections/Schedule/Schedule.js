@@ -6,7 +6,7 @@ import palette from 'assets/palette';
 
 const Schedule = () => {
   return (
-    <Section sectionColor={palette.red}>
+    <Section sectionColor={palette.red} sectionId="schedule">
       <MainHeader style={{ color: palette.white }}>SCHEDULE</MainHeader>
     </Section>
   );

@@ -26,7 +26,7 @@ const Speakers = () => {
   });
 
   return (
-    <Section sectionColor={palette.white}>
+    <Section sectionColor={palette.white} sectionId="speakers">
       <MainHeader style={{ marginBottom: 30 }}>SPEAKERS</MainHeader>
       <MainContainer>
         <SidebarImg src={leftSidebarImg} />

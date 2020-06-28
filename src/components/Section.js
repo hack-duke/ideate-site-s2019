@@ -6,11 +6,14 @@ const Section = ({
   sectionColor,
   innerContainerStyles,
   outerContainerStyles,
+  sectionId,
 }) => {
   return (
-    <OuterContainer style={outerContainerStyles} sectionColor={sectionColor}>
-      <InnerContainer style={innerContainerStyles}>{children}</InnerContainer>
-    </OuterContainer>
+    <a id={sectionId}>
+      <OuterContainer style={outerContainerStyles} sectionColor={sectionColor}>
+        <InnerContainer style={innerContainerStyles}>{children}</InnerContainer>
+      </OuterContainer>
+    </a>
   );
 };
 

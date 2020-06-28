@@ -8,7 +8,7 @@ import rocket from './rocket.svg';
 
 const About = () => {
   return (
-    <Section sectionColor={palette.yellow}>
+    <Section sectionColor={palette.yellow} sectionId="about">
       <img
         src={rocket}
         style={{ display: 'block', margin: '20px auto' }}

@@ -4,11 +4,11 @@ import styled from 'styled-components';
 const Navbar = () => {
   return (
     <Container>
-      <NavLink>about</NavLink>
-      <NavLink>tracks</NavLink>
-      <NavLink>speakers</NavLink>
-      <NavLink>schedule</NavLink>
-      <NavLink>faq</NavLink>
+      <NavLink href="#about">about</NavLink>
+      <NavLink href="#tracks">tracks</NavLink>
+      <NavLink href="#speakers">speakers</NavLink>
+      {/* <NavLink href="#schedule">schedule</NavLink> */}
+      <NavLink href="#faq">faq</NavLink>
     </Container>
   );
 };

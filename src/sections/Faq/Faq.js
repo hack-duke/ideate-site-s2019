@@ -29,6 +29,7 @@ const Faq = () => {
         paddingLeft: 0,
         paddingRight: 0,
       }}
+      sectionId="faq"
     >
       <ImgWrapper>
         <MainHeader style={{ color: palette.white, marginBottom: 50 }}>
