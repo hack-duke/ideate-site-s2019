@@ -37,6 +37,10 @@ const Container = styled.div`
   border-radius: 10px;
   background-color: ${palette.white};
 
+  @media (max-width: 850px) {
+    margin: 20px 0px;
+  }
+
   /* MEDIA QUERY FOR SMALLER SCREENS*/
   /* margin: 70px auto; */
 `;
