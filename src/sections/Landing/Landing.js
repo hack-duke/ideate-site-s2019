@@ -2,7 +2,6 @@ import React from 'react';
 import styled from 'styled-components';
 
 import Section from 'components/Section';
-import { MainHeader } from 'components/typography';
 import Navbar from './components/Navbar';
 import ideateLogoImg from './components/ideate-logo.svg';
 import RegisterButton from 'components/RegisterButton';
