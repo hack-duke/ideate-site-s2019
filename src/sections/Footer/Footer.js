@@ -3,6 +3,7 @@ import styled from 'styled-components';
 import Section from 'components/Section';
 import { MainHeader } from 'components/typography';
 import SocialBar from './components/SocialBar';
+import RegisterButton from 'components/RegisterButton';
 
 const Footer = () => {
   return (
@@ -22,14 +23,5 @@ const FooterHeader = styled(MainHeader)`
   width: 100%;
   max-width: 600px;
   margin: 0 auto;
-`;
-
-const RegisterButton = styled.div`
-  background-color: white;
-  border-radius: 6px;
-  font-size: 28px;
-  padding: 15px 50px;
-  display: inline-block;
-  margin: 0 auto;
-  margin-top: 50px;
+  margin-bottom: 50px;
 `;
