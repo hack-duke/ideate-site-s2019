@@ -18,6 +18,7 @@ export default Section;
 
 const OuterContainer = styled.div`
   background-color: ${(props) => props.sectionColor};
+  overflow: hidden;
 `;
 
 const InnerContainer = styled.div`

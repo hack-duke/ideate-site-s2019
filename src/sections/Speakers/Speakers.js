@@ -60,7 +60,6 @@ const imgStyle = [firstStyle, secondStyle, thirdStyle, fourthStyle];
 
 const MainContainer = styled.div`
   width: 100%;
-  /* overflow: hidden; */
   display: flex;
 `;
 
@@ -83,5 +82,5 @@ const BustImg = styled.img`
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  /* max-width: 50x; */
+  max-width: 300px;
 `;
