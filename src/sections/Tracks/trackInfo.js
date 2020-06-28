@@ -1,6 +1,6 @@
-import health from './health.svg';
-import education from './education.svg';
-import inequality from './inequality.svg';
+import health from './assets/health.svg';
+import education from './assets/education.svg';
+import inequality from './assets/inequality.svg';
 
 export default [
   {

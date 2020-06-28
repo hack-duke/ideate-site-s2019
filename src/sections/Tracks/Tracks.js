@@ -1,7 +1,7 @@
 import React from 'react';
 import Section from 'components/Section';
 import { MainHeader } from 'components/typography';
-import TrackBlock from './TrackBlock.js';
+import TrackBlock from './components/TrackBlock.js';
 import trackInfo from './trackInfo';
 
 import palette from 'assets/palette';
