@@ -27,7 +27,6 @@ const Landing = () => {
         <div style={{ paddingTop: 30, paddingBottom: 300 }}>
           <Navbar />
           <Subtitle>a virtual designathon | July 25-26, 2020</Subtitle>
-          <MainHeader>LANDING</MainHeader>
           <div
             style={{
               display: 'flex',
