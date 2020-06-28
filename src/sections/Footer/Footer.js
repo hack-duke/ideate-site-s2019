@@ -36,7 +36,7 @@ const ImgWrapper = styled.div`
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  padding: 175px 0px;
+  padding: 175px 30px;
 
   @media (max-width: 600px) {
     background-image: none;

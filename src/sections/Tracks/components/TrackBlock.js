@@ -27,9 +27,9 @@ export default TrackBlock;
 const Container = styled.div`
   display: flex;
   flex-direction: column;
-  width: 384px;
+  width: 380px;
   padding: 80px 35px;
-  margin: 20px 17px;
+  margin: 20px 20px;
   border-radius: 10px;
   background-color: ${palette.white};
 
