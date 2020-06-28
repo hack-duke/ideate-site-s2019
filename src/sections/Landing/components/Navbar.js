@@ -27,4 +27,5 @@ const NavLink = styled.a`
   font-size: 28px;
   text-decoration: none;
   font-weight: 200;
+  cursor: pointer;
 `;

@@ -7,15 +7,15 @@ import styled from 'styled-components';
 const TrackBlock = ({ info }) => {
   return (
     <Container>
-      <img src={info.image} style={{height: 175}}/>
+      <img src={info.image} alt="Track Image" style={{ height: 175 }} />
 
-      <BodyHeader
-        style={{margin: '40px auto 0px auto'}}>
+      <BodyHeader style={{ margin: '40px auto 0px auto' }}>
         {info.title}
       </BodyHeader>
 
       <BodyText
-        style={{fontSize: '21px', marginTop: 35, verticalAlign: 'text-top'}}>
+        style={{ fontSize: '21px', marginTop: 35, verticalAlign: 'text-top' }}
+      >
         {info.description}
       </BodyText>
     </Container>

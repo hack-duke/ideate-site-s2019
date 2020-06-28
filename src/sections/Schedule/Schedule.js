@@ -3,7 +3,6 @@ import Section from 'components/Section';
 import { MainHeader } from 'components/typography';
 
 import palette from 'assets/palette';
-import sidebar from './components/sidebar.svg';
 
 const Schedule = () => {
   return (

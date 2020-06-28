@@ -15,7 +15,7 @@ function App() {
       <About />
       <Tracks />
       <Speakers />
-      <Schedule />
+      {/* <Schedule /> */}
       <Faq />
       <Footer />
     </div>
