@@ -31,13 +31,13 @@ export default TrackBlock;
 const Container = styled.div`
   display: flex;
   flex-direction: column;
-  width: 380px;
+  width: 350px;
   padding: 80px 35px;
   margin: 20px 20px;
   border-radius: 10px;
   background-color: ${palette.white};
 
-  @media (max-width: 850px) {
+  @media (max-width: 700px) {
     margin: 20px 0px;
   }
 
