@@ -36,7 +36,7 @@ const Landing = () => {
             }}
           >
             <IdeateLogo src={ideateLogoImg} />
-            <RegisterButton>Register</RegisterButton>
+            <RegisterButton>Coming Soon</RegisterButton>
           </div>
         </div>
       </div>

@@ -15,7 +15,7 @@ const Footer = () => {
       <ImgWrapper>
         <FooterHeader>READY TO CREATE YOUR OWN MOVEMENT?</FooterHeader>
         <div style={{ textAlign: 'center' }}>
-          <RegisterButton>Register</RegisterButton>
+          <RegisterButton>Coming Soon</RegisterButton>
         </div>
         <SocialBar />
       </ImgWrapper>
