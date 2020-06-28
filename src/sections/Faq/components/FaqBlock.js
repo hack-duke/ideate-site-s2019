@@ -7,7 +7,9 @@ import palette from 'assets/palette';
 const FaqBlock = ({ questionText, answerText }) => {
   return (
     <Container>
-      <BodyHeader style={{ color: palette.white }}>{questionText}</BodyHeader>
+      <BodyHeader style={{ color: palette.white, marginBottom: 20 }}>
+        {questionText}
+      </BodyHeader>
       <BodyText style={{ color: palette.white }}>{answerText}</BodyText>
     </Container>
   );

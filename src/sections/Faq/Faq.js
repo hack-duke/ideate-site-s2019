@@ -6,6 +6,7 @@ import { MainHeader } from 'components/typography';
 import FaqBlock from './components/FaqBlock';
 import faqInfo from './components/faqInfo';
 import palette from 'assets/palette';
+import faqBackgroundImg from './components/faq-background.svg';
 
 const Faq = () => {
   const faqElems = faqInfo.map((faq, i) => {
@@ -20,11 +21,13 @@ const Faq = () => {
   });
 
   return (
-    <Section sectionColor={palette.black}>
-      <MainHeader style={{ color: palette.white, marginBottom: 100 }}>
-        FAQ
-      </MainHeader>
-      <MainContainer>{faqElems}</MainContainer>
+    <Section sectionColor={palette.black} innerContainerStyles={{ padding: 0 }}>
+      <ImgWrapper>
+        <MainHeader style={{ color: palette.white, marginBottom: 50 }}>
+          FAQ
+        </MainHeader>
+        <MainContainer>{faqElems}</MainContainer>
+      </ImgWrapper>
     </Section>
   );
 };
@@ -44,4 +47,14 @@ const MainContainer = styled.div`
   /* @media (max-width: 600px) {
     grid-template-columns: repeat(1, 1fr);
   } */
+`;
+
+const ImgWrapper = styled.div`
+  width: 100%;
+  height: 100%;
+  padding: 100px 30px;
+  padding-bottom: 200px;
+  background-image: url(${faqBackgroundImg});
+  background-repeat: no-repeat;
+  background-size: cover;
 `;
