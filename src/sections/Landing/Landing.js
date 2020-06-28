@@ -54,4 +54,5 @@ const IdeateLogo = styled.img`
   width: 100%;
   max-width: 800px;
   margin-bottom: 50px;
+  padding: 0px 30px;
 `;

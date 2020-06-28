@@ -36,6 +36,11 @@ const ImgContainer = styled.div`
   border-radius: 6px;
   flex-basis: 30%;
   text-align: right;
+
+  @media (max-width: 700px) {
+    flex-basis: 0;
+    margin-right: 0;
+  }
 `;
 
 const Icon = styled.img`
@@ -45,4 +50,8 @@ const Icon = styled.img`
 
 const InfoContainer = styled.div`
   flex-basis: 70%;
+
+  @media (max-width: 700px) {
+    flex-basis: 100%;
+  }
 `;

@@ -44,5 +44,6 @@ export default About;
 const Paragraph = styled.div`
   margin: auto;
   margin-top: 40px;
-  width: 900px;
+  width: 100%;
+  max-width: 900px;
 `;

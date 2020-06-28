@@ -23,7 +23,12 @@ const Faq = () => {
   return (
     <Section
       sectionColor={palette.black}
-      innerContainerStyles={{ paddingTop: 30, paddingBottom: 30 }}
+      innerContainerStyles={{
+        paddingTop: 30,
+        paddingBottom: 30,
+        paddingLeft: 0,
+        paddingRight: 0,
+      }}
     >
       <ImgWrapper>
         <MainHeader style={{ color: palette.white, marginBottom: 50 }}>
@@ -46,18 +51,29 @@ const MainContainer = styled.div`
   width: 100%;
   margin: 0 auto;
   max-width: 800px;
+  padding: 0px 20px;
 
-  /* @media (max-width: 600px) {
+  @media (max-width: 700px) {
     grid-template-columns: repeat(1, 1fr);
-  } */
+  }
 `;
 
 const ImgWrapper = styled.div`
   width: 100%;
   height: 100%;
-  padding: 100px 30px;
+  padding: 100px 0px;
   padding-bottom: 200px;
   background-image: url(${faqBackgroundImg});
   background-repeat: no-repeat;
   background-size: contain;
+
+  @media (max-width: 1100px) {
+    grid-template-columns: repeat(1, 1fr);
+    background-size: cover;
+    background-position: center;
+  }
+
+  @media (max-width: 700px) {
+    background-image: none;
+  }
 `;

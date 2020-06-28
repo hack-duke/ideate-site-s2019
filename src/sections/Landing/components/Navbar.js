@@ -18,6 +18,10 @@ export default Navbar;
 const Container = styled.div`
   display: flex;
   justify-content: flex-end;
+
+  @media (max-width: 650px) {
+    display: none;
+  }
   /* padding: 20px 0px; */
 `;
 

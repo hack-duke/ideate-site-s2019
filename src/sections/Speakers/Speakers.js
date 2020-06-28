@@ -63,18 +63,30 @@ const MainContainer = styled.div`
   display: flex;
 `;
 
-const SidebarImg = styled.img``;
+const SidebarImg = styled.img`
+  @media (max-width: 1100px) {
+    display: none;
+  }
+`;
 
 const CenterContainer = styled.div`
   background-color: ${palette.yellow};
-  width: 80%;
+  width: 100%;
   border-radius: 10px;
   padding: 80px 40px;
-  margin: 0 auto;
+  margin: 0 80px;
+
+  @media (max-width: 1100px) {
+    margin: 0;
+  }
 `;
 
 const RightContainer = styled.div`
   position: relative;
+
+  @media (max-width: 1100px) {
+    display: none;
+  }
 `;
 
 const BustImg = styled.img`

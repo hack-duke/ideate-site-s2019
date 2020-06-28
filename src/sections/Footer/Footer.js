@@ -35,5 +35,10 @@ const ImgWrapper = styled.div`
   background-image: url(${footerBackgroundImg});
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
   padding: 175px 0px;
+
+  @media (max-width: 600px) {
+    background-image: none;
+  }
 `;

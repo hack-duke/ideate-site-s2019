@@ -29,7 +29,7 @@ const Container = styled.div`
   flex-direction: column;
   width: 384px;
   padding: 80px 35px;
-  margin: 70px 17px;
+  margin: 20px 17px;
   border-radius: 10px;
   background-color: ${palette.white};
 
