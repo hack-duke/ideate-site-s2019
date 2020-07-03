@@ -10,7 +10,7 @@ const TrackBlock = ({ info }) => {
       <img
         src={info.image}
         alt="Track"
-        style={{ height: 175, width: '100%' }}
+        style={{ height: 115, width: '100%' }}
       />
 
       <BodyHeader style={{ margin: '40px auto 0px auto' }}>
@@ -18,7 +18,7 @@ const TrackBlock = ({ info }) => {
       </BodyHeader>
 
       <BodyText
-        style={{ fontSize: '21px', marginTop: 35, verticalAlign: 'text-top' }}
+        style={{ marginTop: 35, verticalAlign: 'text-top' }}
       >
         {info.description}
       </BodyText>
@@ -31,11 +31,17 @@ export default TrackBlock;
 const Container = styled.div`
   display: flex;
   flex-direction: column;
-  width: 350px;
+  width: 314px;
   padding: 80px 35px;
   margin: 20px 20px;
   border-radius: 10px;
   background-color: ${palette.white};
+  transition: transform 0.2s, box-shadow 0.2s;
+
+:hover {
+  transform: translateY(-10px);
+  box-shadow: 0px 24px 48px rgba(0, 0, 0, 0.05);
+}
 
   @media (max-width: 700px) {
     margin: 20px 0px;

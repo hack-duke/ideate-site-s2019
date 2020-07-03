@@ -34,7 +34,10 @@ const Landing = () => {
             }}
           >
             <IdeateLogo src={ideateLogoImg} />
-            <RegisterButton>Coming Soon</RegisterButton>
+            <a href='https://hackduke.typeform.com/to/y9azDRuZ?fbclid=IwAR2uJtnrA-ozDXFOwzGo0hkfqD1XWsYYfOuhgTPOucUEzMPNvj9vi4uYszA'
+                target='_blank'>
+              <RegisterButton>Register Now</RegisterButton>
+            </a>
           </div>
         </div>
       </div>
@@ -45,7 +48,7 @@ const Landing = () => {
 export default Landing;
 
 const Subtitle = styled.p`
-  font-size: 28px;
+  font-size: 18px;
   color: #f8f0e7;
   text-align: center;
   padding-top: 200px;

@@ -11,7 +11,7 @@ const About = () => {
     <Section sectionColor={palette.yellow} sectionId="about">
       <img
         src={rocket}
-        style={{ display: 'block', margin: '20px auto' }}
+        style={{ display: 'block', margin: '-70px auto 20px auto' }}
         alt="About Icon"
       />
       <MainHeader>WHAT IS IDEATE?</MainHeader>
@@ -45,5 +45,5 @@ const Paragraph = styled.div`
   margin: auto;
   margin-top: 40px;
   width: 100%;
-  max-width: 900px;
+  max-width: 650px;
 `;

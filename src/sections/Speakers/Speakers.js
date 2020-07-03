@@ -29,10 +29,13 @@ const Speakers = () => {
     <Section sectionColor={palette.white} sectionId="speakers">
       <MainHeader style={{ marginBottom: 30 }}>SPEAKERS</MainHeader>
       <MainContainer>
-        <SidebarImg src={leftSidebarImg} />
-        <CenterContainer>{speakerBlockElems}</CenterContainer>
+        {/*remove this next line for actual speaker section*/}
+        <RightContainer><BustImg src={bustImg} style={{transform: 'scaleX(-1)', zIndex:2}}/></RightContainer>
+        {/* <SidebarImg src={leftSidebarImg} /> */}
+        <CenterContainer>COMING SOON</CenterContainer>
+        {/* <CenterContainer>{speakerBlockElems}</CenterContainer> */}
         <RightContainer>
-          <SidebarImg src={rightSidebarImg} />
+          {/* <SidebarImg src={rightSidebarImg} /> */}
           <BustImg src={bustImg} />
         </RightContainer>
       </MainContainer>
@@ -79,6 +82,11 @@ const CenterContainer = styled.div`
   @media (max-width: 1100px) {
     margin: 0;
   }
+
+  /* temp coming soon styles */
+  font-size: 24px;
+  text-align: center;
+  opacity: 75%;
 `;
 
 const RightContainer = styled.div`
@@ -93,6 +101,6 @@ const BustImg = styled.img`
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
-  max-width: 300px;
+  transform: translate(-70%, -50%);
+  max-width: 250px;
 `;

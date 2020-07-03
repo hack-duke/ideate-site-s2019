@@ -18,6 +18,7 @@ export default Navbar;
 const Container = styled.div`
   display: flex;
   justify-content: flex-end;
+  margin-right: 40px;
 
   @media (max-width: 650px) {
     display: none;
@@ -28,7 +29,7 @@ const Container = styled.div`
 const NavLink = styled.a`
   color: #f8f0e7;
   margin: 0px 20px;
-  font-size: 28px;
+  font-size: 18px;
   text-decoration: none;
   font-weight: 200;
   cursor: pointer;

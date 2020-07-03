@@ -13,9 +13,12 @@ const Footer = () => {
       innerContainerStyles={{ padding: 0, maxWidth: 1500 }}
     >
       <ImgWrapper>
-        <FooterHeader>READY TO CREATE YOUR OWN MOVEMENT?</FooterHeader>
+        <FooterHeader style={{fontSize: 40}}>READY TO CREATE YOUR OWN MOVEMENT?</FooterHeader>
         <div style={{ textAlign: 'center' }}>
-          <RegisterButton>Coming Soon</RegisterButton>
+          <a href='https://hackduke.typeform.com/to/y9azDRuZ?fbclid=IwAR2uJtnrA-ozDXFOwzGo0hkfqD1XWsYYfOuhgTPOucUEzMPNvj9vi4uYszA'
+              target='_blank'>
+            <RegisterButton>Register</RegisterButton>
+          </a>
         </div>
         <SocialBar />
       </ImgWrapper>
@@ -27,7 +30,7 @@ export default Footer;
 
 const FooterHeader = styled(MainHeader)`
   width: 100%;
-  max-width: 600px;
+  max-width: 500px;
   margin: 0 auto;
   margin-bottom: 50px;
 `;

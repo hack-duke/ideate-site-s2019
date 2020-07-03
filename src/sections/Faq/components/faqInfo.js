@@ -1,22 +1,22 @@
 export default [
   {
-    questionText: 'Sample Question',
+    questionText: 'Who can participate in Ideate?',
     answerText:
-      'The answer to the question blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah',
+      'Ideate is open to all university students throughout the world.',
   },
   {
-    questionText: 'Sample Question',
+    questionText: 'Can I participate if I have no design experience?',
     answerText:
-      'The answer to the question blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah',
+      'Yes! We’ll have a few intro to design tools workshops that will help you get up to speed.'
   },
   {
-    questionText: 'Sample Question',
+    questionText: 'What do I do if I don’t have a team?',
     answerText:
-      'The answer to the question blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah',
+      'Don\'t worry! We’ll have a Slack channel where you can meet other participants and form teams.',
   },
   {
-    questionText: 'Sample Question',
+    questionText: 'What platforms will be used for communication?',
     answerText:
-      'The answer to the question blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah',
+      'We\'ll have a Slack workplace and use Youtube Live to stream workshops and other activities.',
   },
 ];

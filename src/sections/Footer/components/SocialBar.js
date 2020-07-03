@@ -8,9 +8,15 @@ const SocialBar = () => {
   console.log(emailImg);
   return (
     <Container>
-      <Icon src={facebookImg} />
-      <Icon src={emailImg} />
-      <Icon src={mediumImg} />
+      <a href="https://www.facebook.com/hackduke" target = "_blank">
+        <Icon src={facebookImg} />
+      </a>
+      <a href="mailto:hackers@hackduke.org" target = "_blank">
+        <Icon src={emailImg} />
+      </a>
+      <a href="https://medium.com/@hackduke" target = "_blank">
+        <Icon src={mediumImg} />
+      </a>
     </Container>
   );
 };
@@ -27,5 +33,11 @@ const Container = styled.div`
 const Icon = styled.img`
   width: 40px;
   height: 40px;
-  margin: 5px;
+  margin: 10px;
+  transition: transform 0.2s, box-shadow 0.2s;
+
+  :hover {
+    transform: translateY(-2px);
+    box-shadow: 0px 24px 48px rgba(0, 0, 0, 0.05);
+  }
 `;
