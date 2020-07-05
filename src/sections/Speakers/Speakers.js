@@ -50,7 +50,7 @@ const Speakers = () => {
 
 export default Speakers;
 
-const imgArr = [firstImg, secondImg, thirdImg, fourthImg];
+// const imgArr = [firstImg, secondImg, thirdImg, fourthImg];
 const firstStyle = `
 
 `;
@@ -64,7 +64,7 @@ const thirdStyle = `
 const fourthStyle = `
   width: 80%;
 `;
-const imgStyle = [firstStyle, secondStyle, thirdStyle, fourthStyle];
+// const imgStyle = [firstStyle, secondStyle, thirdStyle, fourthStyle];
 
 const MainContainer = styled.div`
   width: 100%;

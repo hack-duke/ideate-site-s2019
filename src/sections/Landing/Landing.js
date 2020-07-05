@@ -34,8 +34,11 @@ const Landing = () => {
             }}
           >
             <IdeateLogo src={ideateLogoImg} />
-            <a href='https://hackduke.typeform.com/to/y9azDRuZ?fbclid=IwAR2uJtnrA-ozDXFOwzGo0hkfqD1XWsYYfOuhgTPOucUEzMPNvj9vi4uYszA'
-                target='_blank'>
+            <a
+              href="https://hackduke.typeform.com/to/y9azDRuZ?fbclid=IwAR2uJtnrA-ozDXFOwzGo0hkfqD1XWsYYfOuhgTPOucUEzMPNvj9vi4uYszA"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <RegisterButton>Register Now</RegisterButton>
             </a>
           </div>
