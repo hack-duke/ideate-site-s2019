@@ -6,10 +6,10 @@ import { MainHeader } from 'components/typography';
 import palette from 'assets/palette';
 import styled from 'styled-components';
 // import speakerInfo from './speakerInfo';
-import firstImg from './components/first.svg';
-import secondImg from './components/second.svg';
-import thirdImg from './components/third.svg';
-import fourthImg from './components/fourth.svg';
+// import firstImg from './components/first.svg';
+// import secondImg from './components/second.svg';
+// import thirdImg from './components/third.svg';
+// import fourthImg from './components/fourth.svg';
 // import leftSidebarImg from './components/left-sidebar.svg';
 // import rightSidebarImg from './components/right-sidebar.svg';
 import bustImg from './components/bust.svg';
@@ -51,19 +51,19 @@ const Speakers = () => {
 export default Speakers;
 
 // const imgArr = [firstImg, secondImg, thirdImg, fourthImg];
-const firstStyle = `
+// const firstStyle = `
 
-`;
-const secondStyle = `
-  width: 80%;
-  margin-top: -30px;
-`;
-const thirdStyle = `
-  width: 80%;
-`;
-const fourthStyle = `
-  width: 80%;
-`;
+// `;
+// const secondStyle = `
+//   width: 80%;
+//   margin-top: -30px;
+// `;
+// const thirdStyle = `
+//   width: 80%;
+// `;
+// const fourthStyle = `
+//   width: 80%;
+// `;
 // const imgStyle = [firstStyle, secondStyle, thirdStyle, fourthStyle];
 
 const MainContainer = styled.div`

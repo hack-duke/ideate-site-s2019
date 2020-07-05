@@ -9,7 +9,7 @@ const Section = ({
   sectionId,
 }) => {
   return (
-    <a id={sectionId}>
+    <a id={sectionId} type="button">
       <OuterContainer style={outerContainerStyles} sectionColor={sectionColor}>
         <InnerContainer style={innerContainerStyles}>{children}</InnerContainer>
       </OuterContainer>
