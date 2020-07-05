@@ -8,13 +8,25 @@ const SocialBar = () => {
   console.log(emailImg);
   return (
     <Container>
-      <a href="https://www.facebook.com/hackduke" target = "_blank">
+      <a
+        href="https://www.facebook.com/hackduke"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         <Icon src={facebookImg} />
       </a>
-      <a href="mailto:hackers@hackduke.org" target = "_blank">
+      <a
+        href="mailto:hackers@hackduke.org"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         <Icon src={emailImg} />
       </a>
-      <a href="https://medium.com/@hackduke" target = "_blank">
+      <a
+        href="https://medium.com/@hackduke"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         <Icon src={mediumImg} />
       </a>
     </Container>
