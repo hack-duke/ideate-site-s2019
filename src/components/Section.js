@@ -9,11 +9,13 @@ const Section = ({
   sectionId,
 }) => {
   return (
-    <a id={sectionId} type="button">
-      <OuterContainer style={outerContainerStyles} sectionColor={sectionColor}>
-        <InnerContainer style={innerContainerStyles}>{children}</InnerContainer>
-      </OuterContainer>
-    </a>
+    <OuterContainer
+      id={sectionId}
+      style={outerContainerStyles}
+      sectionColor={sectionColor}
+    >
+      <InnerContainer style={innerContainerStyles}>{children}</InnerContainer>
+    </OuterContainer>
   );
 };
 
