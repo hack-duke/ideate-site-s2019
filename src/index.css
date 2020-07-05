@@ -7,13 +7,16 @@
 
 body {
   margin: 0;
-  font-family: 'Apercu', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'Apercu', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans',
+    'Droid Sans', 'Helvetica Neue', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
   box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 a {
@@ -22,39 +25,43 @@ a {
 }
 
 code {
-  font-family: 'Apercu Mono Regular',
-    monospace;
+  font-family: 'Apercu Mono Regular', monospace;
 }
 
 /* ====== APERCU FONTS ====== */
 @font-face {
-font-family: 'Apercu';
-font-style: normal;
-font-weight: 100;
-src: local('Apercu Light'), url('./assets/fonts/Apercu Light.woff') format('woff');
+  font-family: 'Apercu';
+  font-style: normal;
+  font-weight: 100;
+  src: local('Apercu Light'),
+    url('./assets/fonts/Apercu Light.woff') format('woff');
 }
 @font-face {
-font-family: 'Apercu';
-font-style: normal;
-font-weight: 300;
-src: local('Apercu Regular'), url('./assets/fonts/Apercu_Regular.woff') format('woff');
+  font-family: 'Apercu';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Apercu Regular'),
+    url('./assets/fonts/Apercu_Regular.woff') format('woff');
 }
 @font-face {
-font-family: 'Apercu';
-font-style: normal;
-font-weight: 500;
-src: local('Apercu Medium'), url('./assets/fonts/Apercu Medium.woff') format('woff');
+  font-family: 'Apercu';
+  font-style: normal;
+  font-weight: 500;
+  src: local('Apercu Medium'),
+    url('./assets/fonts/Apercu Medium.woff') format('woff');
 }
 @font-face {
-font-family: 'Apercu';
-font-style: normal;
-font-weight: 700;
-src: local('Apercu Bold'), url('./assets/fonts/Apercu Bold.woff') format('woff');
+  font-family: 'Apercu';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Apercu Bold'),
+    url('./assets/fonts/Apercu Bold.woff') format('woff');
 }
 
 @font-face {
-font-family: 'Apercu Mono Regular';
-font-style: normal;
-font-weight: normal;
-src: local('Apercu Mono Regular'), url('./assets/fonts/Apercu Mono.woff') format('woff');
+  font-family: 'Apercu Mono Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Apercu Mono Regular'),
+    url('./assets/fonts/Apercu Mono.woff') format('woff');
 }
