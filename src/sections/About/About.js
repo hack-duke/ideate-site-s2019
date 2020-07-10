@@ -7,6 +7,7 @@ import styled from 'styled-components';
 import rocket from './rocket.svg';
 
 const About = () => {
+  console.log('Change Indicator 1');
   return (
     <Section sectionColor={palette.yellow} sectionId="about">
       <img
