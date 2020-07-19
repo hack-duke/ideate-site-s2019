@@ -30,7 +30,7 @@ class ScheduleItemCard extends Component {
 
 export default ScheduleItemCard;
 
-const dateColSmWidth = '142px';
+const dateColSmWidth = '120px';
 
 const CardBase = styled('div')`
   flex-grow: 1;
@@ -73,11 +73,16 @@ const EventTime = styled('div')`
   flex-basis: ${dateColSmWidth};
   flex-grow: 0;
   flex-shrink: 0;
+  overflow: hidden;
 
   font-weight: 500;
   font-size: 20px;
-  padding: 17px 30px;
+  padding: 15px 25px;
 `;
 const EventInfo = styled('div')`
   padding: 17px 35px;
+
+  @media (max-width: 700px) {
+    padding: 17px 20px;
+  }
 `;
