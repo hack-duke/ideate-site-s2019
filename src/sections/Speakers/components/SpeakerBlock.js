@@ -6,9 +6,9 @@ import styled from 'styled-components';
 const SpeakerBlock = ({ info, imgSrc, imgStyle }) => {
   return (
     <Container>
-      <ImgContainer>
+      {/* <ImgContainer>
         <Icon src={imgSrc} imgStyle={imgStyle} />
-      </ImgContainer>
+      </ImgContainer> */}
       <InfoContainer>
         <BodyHeader>{info.name}</BodyHeader>
         <BodyHeader style={{ marginBottom: 20 }}>{info.title}</BodyHeader>
@@ -49,7 +49,7 @@ const Icon = styled.img`
 `;
 
 const InfoContainer = styled.div`
-  flex-basis: 70%;
+  flex-basis: 100%;
 
   @media (max-width: 700px) {
     flex-basis: 100%;
