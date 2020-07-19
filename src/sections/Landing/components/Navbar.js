@@ -7,7 +7,7 @@ const Navbar = () => {
       <NavLink href="#about">about</NavLink>
       <NavLink href="#tracks">tracks</NavLink>
       <NavLink href="#speakers">speakers</NavLink>
-      {/* <NavLink href="#schedule">schedule</NavLink> */}
+      <NavLink href="#schedule">schedule</NavLink>
       <NavLink href="#faq">faq</NavLink>
     </Container>
   );
