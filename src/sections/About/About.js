@@ -27,13 +27,27 @@ const About = () => {
       </Paragraph>
 
       <Paragraph>
-        <BodyHeader>Ideate @ Duke is...</BodyHeader>
+        <BodyHeader>Ideate 2020 @ Duke is...</BodyHeader>
         <BodyText style={{ marginTop: 20 }}>
           A two-day virtual designathon filled with awesome speakers, workshops,
           and a design challenge to explore how design and innovation interact.
           Ideate aims to observe how design thinking can be applied across
           fields, and is open to design aficionados, curious newcomers, and
           everyone in between!
+        </BodyText>
+      </Paragraph>
+
+      <Paragraph>
+        <BodyHeader>Our Purpose</BodyHeader>
+        <BodyText style={{ marginTop: 20 }}>
+          We hope that Ideate will inspire students from all backgrounds to
+          incorporate design thinking as part of their innovation process and to
+          use it as a tool in their endeavors.
+          As Duke's annual design conference, we’re here to show you
+          how design isn’t just about drawing or Adobe software: it enhances
+          technology by creating intuitive and meaningful experiences, it draws
+          on psychology to understand end-users, and it creates successful
+          businesses by driving human-centered development of product solutions.
         </BodyText>
       </Paragraph>
     </Section>

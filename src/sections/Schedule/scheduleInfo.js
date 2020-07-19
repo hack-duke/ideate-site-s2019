@@ -5,9 +5,9 @@ export default [
     events: [
       {
         start: '12:00PM',
-        end:'12:15PM',
+        end:'12:15PM EST',
         name: 'Opening Ceremony',
-        description: 'Welcome to IDEATE!',
+        description: 'Welcome to Ideate! Will be livestreamed on Youtube',
         additional:'',
       },
       {
