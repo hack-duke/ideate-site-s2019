@@ -45,6 +45,7 @@ const CardBase = styled('div')`
 
   border-radius: 15px;
   width: 100%;
+  max-width: 488px;
   text-align: left;
 
   transition: transform 0.2s, box-shadow 0.2s;
