@@ -151,7 +151,7 @@ export default [
         start: '4:00PM',
         end:'',
         name: 'Submissions Due on Devpost',
-        description: 'devpost link',
+        description: '',
         additional:'',
       },
       {

@@ -45,6 +45,14 @@ const CardBase = styled('div')`
   border-radius: 15px;
   width: 488px;
   text-align: left;
+
+  transition: transform 0.2s, box-shadow 0.2s;
+  cursor: pointer;
+
+:hover {
+  transform: translateY(-10px);
+  box-shadow: 0px 24px 48px rgba(0, 0, 0, 0.05);
+}
 ;`
 
 const EventRow = styled('div')`
