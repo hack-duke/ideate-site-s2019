@@ -34,7 +34,7 @@ const ImgContainer = styled.div`
   /* width: 200px; */
   margin-right: 40px;
   border-radius: 6px;
-  flex-basis: 30%;
+  flex-basis: 22.5%;
   text-align: right;
 
   @media (max-width: 700px) {

@@ -1,46 +1,39 @@
 import React from 'react';
 import Section from 'components/Section';
 import { MainHeader } from 'components/typography';
-// import SpeakerBlock from './components/SpeakerBlock';
+import SpeakerBlock from './components/SpeakerBlock';
 
 import palette from 'assets/palette';
 import styled from 'styled-components';
-// import speakerInfo from './speakerInfo';
-// import firstImg from './components/first.svg';
-// import secondImg from './components/second.svg';
-// import thirdImg from './components/third.svg';
-// import fourthImg from './components/fourth.svg';
-// import leftSidebarImg from './components/left-sidebar.svg';
-// import rightSidebarImg from './components/right-sidebar.svg';
+import speakerInfo from './speakerInfo';
+import firstImg from './components/first.svg';
+import secondImg from './components/second.svg';
+import thirdImg from './components/third.svg';
+import fourthImg from './components/fourth.svg';
+import leftSidebarImg from './components/left-sidebar.svg';
+import rightSidebarImg from './components/right-sidebar.svg';
 import bustImg from './components/bust.svg';
 
 const Speakers = () => {
-  // const speakerBlockElems = speakerInfo.map((info, idx) => {
-  //   return (
-  //     <SpeakerBlock
-  //       info={info}
-  //       imgSrc={imgArr[idx % 4]}
-  //       imgStyle={imgStyle[idx % 4]}
-  //     />
-  //   );
-  // });
+  const speakerBlockElems = speakerInfo.map((info, idx) => {
+    return (
+      <SpeakerBlock
+        info={info}
+        imgSrc={imgArr[idx % 4]}
+        imgStyle={imgStyle[idx % 4]}
+      />
+    );
+  });
 
   return (
     <Section sectionColor={palette.white} sectionId="speakers">
       <MainHeader style={{ marginBottom: 30 }}>SPEAKERS</MainHeader>
       <MainContainer>
         {/*remove this next line for actual speaker section*/}
+        <SidebarImg src={leftSidebarImg} />
+        <CenterContainer>{speakerBlockElems}</CenterContainer>
         <RightContainer>
-          <BustImg
-            src={bustImg}
-            style={{ transform: 'scaleX(-1)', zIndex: 2 }}
-          />
-        </RightContainer>
-        {/* <SidebarImg src={leftSidebarImg} /> */}
-        <CenterContainer>COMING SOON</CenterContainer>
-        {/* <CenterContainer>{speakerBlockElems}</CenterContainer> */}
-        <RightContainer>
-          {/* <SidebarImg src={rightSidebarImg} /> */}
+          <SidebarImg src={rightSidebarImg} />
           <BustImg src={bustImg} />
         </RightContainer>
       </MainContainer>
@@ -50,32 +43,32 @@ const Speakers = () => {
 
 export default Speakers;
 
-// const imgArr = [firstImg, secondImg, thirdImg, fourthImg];
-// const firstStyle = `
+const imgArr = [firstImg, secondImg, thirdImg, fourthImg];
+const firstStyle = `
 
-// `;
-// const secondStyle = `
-//   width: 80%;
-//   margin-top: -30px;
-// `;
-// const thirdStyle = `
-//   width: 80%;
-// `;
-// const fourthStyle = `
-//   width: 80%;
-// `;
-// const imgStyle = [firstStyle, secondStyle, thirdStyle, fourthStyle];
+`;
+const secondStyle = `
+  width: 80%;
+  margin-top: -30px;
+`;
+const thirdStyle = `
+  width: 80%;
+`;
+const fourthStyle = `
+  width: 80%;
+`;
+const imgStyle = [firstStyle, secondStyle, thirdStyle, fourthStyle];
 
 const MainContainer = styled.div`
   width: 100%;
   display: flex;
 `;
 
-// const SidebarImg = styled.img`
-//   @media (max-width: 1100px) {
-//     display: none;
-//   }
-// `;
+const SidebarImg = styled.img`
+  @media (max-width: 1100px) {
+    display: none;
+  }
+`;
 
 const CenterContainer = styled.div`
   background-color: ${palette.yellow};
