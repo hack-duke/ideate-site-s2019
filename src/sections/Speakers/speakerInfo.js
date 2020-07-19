@@ -31,7 +31,7 @@ export default [
       'What do you do when you stumble upon a problem, feel drawn to act, yet there are no clear next steps? This a talk on how a techie created a design movement in maternal health, and you can too.',
   },
   {
-    name: 'Dorothy Feng/Yoon Shin',
+    name: 'Dorothy Feng/Yoon Ko',
     title: 'Design Thinking',
     description:
       'Design Thinking as a concept makes perfect sense as a principle but how is it actually used? Join us in learning how IDEO, Facebook, and other design teams apply Design Thinking in their everyday problem solving!',
