@@ -4,11 +4,14 @@ import { BodyHeader, BodyText } from 'components/typography';
 import styled from 'styled-components';
 
 const SpeakerBlock = ({ info, imgSrc, imgStyle }) => {
+  console.log(info.images);
   return (
     <Container>
-      {/* <ImgContainer>
-        <Icon src={imgSrc} imgStyle={imgStyle} />
-      </ImgContainer> */}
+      <ImgContainer>
+        {info.images.map((image) => {
+          return <ImgBlock src={image} />;
+        })}
+      </ImgContainer>
       <InfoContainer>
         <BodyHeader>{info.name}</BodyHeader>
         <BodyHeader style={{ marginBottom: 20 }}>{info.title}</BodyHeader>
@@ -22,7 +25,7 @@ export default SpeakerBlock;
 
 const Container = styled.div`
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
 
   :not(:last-child) {
     margin-bottom: 50px;
@@ -30,17 +33,19 @@ const Container = styled.div`
 `;
 
 const ImgContainer = styled.div`
-  height: 125px;
-  /* width: 200px; */
-  margin-right: 40px;
-  border-radius: 6px;
-  flex-basis: 22.5%;
-  text-align: right;
+  display: flex;
+  flex-wrap: wrap;
+`;
 
-  @media (max-width: 700px) {
-    flex-basis: 0;
-    margin-right: 0;
+const ImgBlock = styled.img`
+  display: inline-block;
+  max-width: 150px;
+  width: 100%;
+
+  :not(:last-child) {
+    margin-right: 20px;
   }
+  margin-bottom: 20px;
 `;
 
 const Icon = styled.img`

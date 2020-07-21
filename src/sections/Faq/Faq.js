@@ -10,7 +10,6 @@ import faqBackgroundImg from './components/faq-background.svg';
 
 const Faq = () => {
   const faqElems = faqInfo.map((faq, i) => {
-    console.log(faq);
     return (
       <FaqBlock
         key={i}
