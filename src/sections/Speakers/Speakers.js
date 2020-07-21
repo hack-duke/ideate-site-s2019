@@ -81,11 +81,6 @@ const CenterContainer = styled.div`
   @media (max-width: 1100px) {
     margin: 0;
   }
-
-  /* temp coming soon styles */
-  font-size: 24px;
-  text-align: center;
-  opacity: 75%;
 `;
 
 const RightContainer = styled.div`
