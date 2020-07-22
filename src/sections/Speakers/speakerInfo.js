@@ -6,7 +6,7 @@ import dorothyImg from './speaker-images/dorothy.svg';
 import jamalImg from './speaker-images/jamal.svg';
 import meganImg from './speaker-images/megan.svg';
 import melvinImg from './speaker-images/melvin.svg';
-// import sanjanaImg from './speaker-images/sanjana.svg';
+import sanjanaImg from './speaker-images/sanjana.svg';
 import shreyaImg from './speaker-images/shreya.svg';
 import taniaImg from './speaker-images/tania.svg';
 import tonyImg from './speaker-images/tony.svg';
@@ -29,9 +29,9 @@ export default [
   },
   {
     name: 'Kiyoon Ko & Dorothy Feng',
-    title: 'Design Thinking',
+    title: 'Design Thinking in 45 Minutes',
     description:
-      "Kiyoon (Yoon) is the Design Lead at Forage, a startup consultant, and a current Fellow at IDEO CoLab. Previously, he worked as a software engineer and a product manager at Microsoft and Boomerang. As a Duke graduate, he founded Catalyst, a tech-enthusiast organization, organized HackDuke, and started IDEATE with Dorothy Feng in Spring 2016. A strong advocate for creating a user-centric design culture, Yoon often drives product development directions by facilitating design thinking sessions, supporting product decisions with user research, and crafting stories to solve the users' pain points.",
+      "Kiyoon (Yoon) is the Design Lead at Forage, a startup consultant, and a current Fellow at IDEO CoLab. Previously, he worked as a software engineer and a product manager at Microsoft and Boomerang. As a Duke graduate, he founded Catalyst, a tech-enthusiast organization, organized HackDuke, and started IDEATE with Dorothy Feng in Spring 2016. A strong advocate for creating a user-centric design culture, Yoon often drives product development directions by facilitating design thinking sessions, supporting product decisions with user research, and crafting stories to solve the users' pain points. Dorothy graduated from Duke in 2018 as a Psychology + CS major and currently works at Microsoft as a UX Designer. She loves empathizing with people and the world around her and integrating that into her design process.",
     images: [kiyoonImg, dorothyImg],
   },
   {
@@ -56,27 +56,27 @@ export default [
       'Melvin is the co-founder and CEO of Upswing, an organization that uses engagement software to help keep online students and adult learners on the path towards graduation. Today, Upswing supports over 500,000 students in more than 70 colleges. Melvin grew up in south Georgia, where he was one of only 68 students to graduate out of class of 250. This ignited his passion for finding a way to empower students to take their futures into their own hands through higher education. After graduating from the University of Georgia, Melvin received a JD/MBA from Duke University where he started a law forum for social and educational equality. Afterwards, he worked became a professor North Carolina Central University, where he helped in first-year student success.',
     images: [melvinImg],
   },
-  // {
-  //   name: 'Sanjana Galgalikar',
-  //   title: '',
-  //   description:
-  //     'Sanjana is currently the only Product Designer at an early stage startup focused on building tools to improve the voice ecosystem. She graduated from the University of Washington’s Human Centered Design & Engineering and Informatics programs in 2018 and interned at Frog Design, Blink UX, and Nordstrom.',
-  //   images: [sanjanaImg],
-  // },
+  {
+    name: 'Sanjana Galgalikar',
+    title: 'Design at an Early Stage Startup',
+    description:
+      'Sanjana is currently the only Product Designer at an early stage startup focused on building tools to improve the voice ecosystem. She graduated from the University of Washington’s Human Centered Design & Engineering and Informatics programs in 2018 and interned at Frog Design, Blink UX, and Nordstrom.',
+    images: [sanjanaImg],
+  },
   {
     name: 'Shreya Sankar',
-    title: 'Working with Users',
+    title: 'Designing with Users, not For Them',
     description:
-      "Shreya is a self-taught designer from Duke with majors in Mechanical Engineering and Visual Arts. Currently, she designs for Uber’s innovation team/rider labs. She works with a small group of designers, engineers, and thinkers who experiment on nontraditional products and ways to help the Uber vision grow with people’s evolving needs. Simply put, it's a never-ending startup focused on getting the products to the people. Prior, she was part of the team that rebranded the digital presence of India’s largest car manufacturer with one of the country’s first design studios. In my spare time, I love giving back to the student design community as well as engaging with the larger design community. I believe it’s important to pay it back, especially when my journey was propelled forward by the dozens of designers and professionals that patiently guided me and were my north stars. Ideate especially holds a special place in her heart because it's where she first discovered her love for product design, super excited to come back and speak.",
+      "Shreya is a self-taught designer from Duke with majors in Mechanical Engineering and Visual Arts. Currently, she designs for Uber’s innovation team/rider labs. She works with a small group of designers, engineers, and thinkers who experiment on nontraditional products and ways to help the Uber vision grow with people’s evolving needs. Simply put, it's a never-ending startup focused on getting the products to the people. Prior, she was part of the team that rebranded the digital presence of India’s largest car manufacturer with one of the country’s first design studios.Ideate especially holds a special place in her heart because it's where she first discovered her love for product design, and is super excited to come back and speak.",
     images: [shreyaImg],
   },
-  {
-    name: 'Tania Anaissie',
-    title: 'Design and Social Justice',
-    description:
-      'Tania Anaissie is the Founder and CEO of Beytna Design, an equity design studio. She is a co-creator of Liberatory Design, an equity-centered design thinking framework, Faculty at the National Equity Project, and a former Lecturer at the Stanford d.school. She supports social sector leaders and designers to actualize their commitment to equity.',
-    images: [taniaImg],
-  },
+  // {
+  //   name: 'Tania Anaissie',
+  //   title: 'Design and Social Justice',
+  //   description:
+  //     'Tania Anaissie is the Founder and CEO of Beytna Design, an equity design studio. She is a co-creator of Liberatory Design, an equity-centered design thinking framework, Faculty at the National Equity Project, and a former Lecturer at the Stanford d.school. She supports social sector leaders and designers to actualize their commitment to equity.',
+  //   images: [taniaImg],
+  // },
   {
     name: 'Tony Beltramelli',
     title: 'Towards the democratization of design with Al',
@@ -88,7 +88,7 @@ export default [
     name: 'Whitney Robinson',
     title: "Open up the door, I'll get it myself",
     description:
-      'My Dad says I’m always running my mouth. It’s true, I’m known for jumping into problems I know nothing about. I’m a techie, a designer, a mother and I believe in making noise and taking risks to beat disparities creatively,  collectively, and quickly.',
+      '"My Dad says I’m always running my mouth. It’s true, I’m known for jumping into problems I know nothing about. I’m a techie, a designer, a mother and I believe in making noise and taking risks to beat disparities creatively, collectively, and quickly."',
     images: [whitneyImg],
   },
 ];

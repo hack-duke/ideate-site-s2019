@@ -7,7 +7,7 @@ const SpeakerBlock = ({ info, imgSrc, imgStyle }) => {
   console.log(info.images);
   return (
     <Container>
-      <ImgContainer>
+      <ImgContainer style={{margin:'auto'}}>
         {info.images.map((image) => {
           return <ImgBlock src={image} />;
         })}

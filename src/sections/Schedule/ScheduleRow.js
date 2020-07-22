@@ -17,6 +17,7 @@ const ScheduleRow = ({ info }) => {
       <EventInfo>
         <BodyHeader>{info.name}</BodyHeader>
         <BodyText>{info.description}</BodyText>
+        {/* <BodyText style={{fontSize:16}}>{info.link}</BodyText> */}
         {info.additional && (
           <div>
             {isOpen && (
