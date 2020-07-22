@@ -57,6 +57,14 @@ export default [
         link:'https://duke.zoom.us/my/ideate1',
         additional:'What do you do when you stumble upon a problem, feel drawn to act, yet there are no clear next steps? This a talk on how a techie created a design movement in maternal health, and you can too.',
       },
+      {
+        start: '3:00PM',
+        end:'3:45PM',
+        name: 'Just Like Me: Why Creators of Education Technology Should Mirror Their Users’ Backgrounds',
+        description: 'with Melvin Hines',
+        link:'https://duke.zoom.us/my/ideate1',
+        additional:'The recent Covid-19 pandemic and its impact on education has pushed education technology to the forefront. But as more resources and dollars get pumped into education technology, how do we know that the creators of our technology understand the users of our technology? This session discusses why it is important for those in education technology to have a connection to the students who are their users.',
+      },
       // {
       //   start: '3:00PM',
       //   end:'3:45PM',
@@ -78,14 +86,6 @@ export default [
         description: 'with Shreya Shankar',
         link:'https://duke.zoom.us/my/ideate2',
         additional:'Join us to learn about the importance of user testing and how to engage with users throughout the whole design journey, rather than just the end. This is a talk on designing with the users rather than for them without understanding their needs properly.',
-      },
-      {
-        start: '4:15PM',
-        end:'5:00PM',
-        name: 'Just Like Me: Why Creators of Education Technology Should Mirror Their Users’ Backgrounds',
-        description: 'with Melvin Hines',
-        link:'https://duke.zoom.us/my/ideate1',
-        additional:'The recent Covid-19 pandemic and its impact on education has pushed education technology to the forefront. But as more resources and dollars get pumped into education technology, how do we know that the creators of our technology understand the users of our technology? This session discusses why it is important for those in education technology to have a connection to the students who are their users.',
       },
       {
         start: '5:00PM',

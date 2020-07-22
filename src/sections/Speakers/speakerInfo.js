@@ -53,7 +53,7 @@ export default [
     title:
       'Just Like Me: Why Creators of Education Technology Should Mirror Their Users’ Backgrounds',
     description:
-      'Melvin is the co-founder and CEO of Upswing, an organization that uses engagement software to help keep online students and adult learners on the path towards graduation. Today, Upswing supports over 500,000 students in more than 70 colleges. Melvin grew up in south Georgia, where he was one of only 68 students to graduate out of class of 250. This ignited his passion for finding a way to empower students to take their futures into their own hands through higher education. After graduating from the University of Georgia, Melvin received a JD/MBA from Duke University where he started a law forum for social and educational equality. Afterwards, he worked became a professor North Carolina Central University, where he helped in first-year student success.',
+      'Melvin is the co-founder and CEO of Upswing, an organization that uses engagement software to help keep online students and adult learners on the path towards graduation. Today, Upswing supports over 500,000 students in more than 70 colleges. Melvin grew up in south Georgia, where he was one of only 68 students to graduate out of class of 250. This ignited his passion for finding a way to empower students to take their futures into their own hands through higher education. After graduating from the University of Georgia, Melvin received a JD/MBA from Duke University where he started a law forum for social and educational equality. Afterwards, he became a professor North Carolina Central University, where he helped in first-year student success.',
     images: [melvinImg],
   },
   {
