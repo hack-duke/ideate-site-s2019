@@ -18,6 +18,10 @@ const ScheduleRow = ({ info }) => {
         <BodyHeader>{info.name}</BodyHeader>
         <BodyText>{info.description}</BodyText>
         {/* <BodyText style={{fontSize:16}}>{info.link}</BodyText> */}
+        <a href={info.link} target='_blank'
+            style={{fontSize:16, opacity:'50%'}}>
+          {info.link}
+        </a>
         {info.additional && (
           <div>
             {isOpen && (

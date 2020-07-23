@@ -82,7 +82,7 @@ export default [
       {
         start: '4:15PM',
         end:'5:00PM',
-        name: 'Designing with Users, not For Them',
+        name: 'Designing for Trust with Your Users',
         description: 'with Shreya Shankar',
         link:'https://duke.zoom.us/my/ideate2',
         additional:'Join us to learn about the importance of user testing and how to engage with users throughout the whole design journey, rather than just the end. This is a talk on designing with the users rather than for them without understanding their needs properly.',
@@ -162,7 +162,8 @@ export default [
         start: '4:00PM',
         end:'',
         name: 'Submissions Due on Devpost',
-        description: 'https://ideate.devpost.com/',
+        description: '',
+        link:'https://ideate.devpost.com/',
         additional:'',
       },
       {
