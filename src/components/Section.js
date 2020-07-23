@@ -12,7 +12,8 @@ const Section = ({
     <OuterContainer
       id={sectionId}
       style={outerContainerStyles}
-      sectionColor={sectionColor}
+      // sectionColor={sectionColor}
+      sectionColor="transparent"
     >
       <InnerContainer style={innerContainerStyles}>{children}</InnerContainer>
     </OuterContainer>

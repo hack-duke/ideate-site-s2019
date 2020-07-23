@@ -4,10 +4,9 @@ import { BodyHeader, BodyText } from 'components/typography';
 import styled from 'styled-components';
 
 const SpeakerBlock = ({ info, imgSrc, imgStyle }) => {
-  console.log(info.images);
   return (
     <Container>
-      <ImgContainer style={{margin:'auto'}}>
+      <ImgContainer style={{ margin: 'auto' }}>
         {info.images.map((image) => {
           return <ImgBlock src={image} />;
         })}

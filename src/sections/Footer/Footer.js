@@ -10,6 +10,7 @@ const Footer = () => {
   return (
     <Section
       sectionColor="#F8F0E7"
+      sectionId="footer"
       innerContainerStyles={{ padding: 0, maxWidth: 1500 }}
     >
       <ImgWrapper>
