@@ -22,6 +22,11 @@ const sections = [
     sectionColor: palette.green,
   },
   {
+    title: 'Speakers',
+    id: 'speakers',
+    sectionColor: palette.white,
+  },
+  {
     title: 'Schedule',
     id: 'schedule',
     sectionColor: palette.red,
