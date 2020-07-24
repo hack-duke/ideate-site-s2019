@@ -37,6 +37,11 @@ const sections = [
     sectionColor: palette.black,
   },
   {
+    title: 'Sponsors',
+    id: 'sponsors',
+    sectionColor: palette.blue,
+  },
+  {
     title: 'Footer',
     id: 'footer',
     sectionColor: palette.black,

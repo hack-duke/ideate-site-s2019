@@ -64,8 +64,8 @@ export default [
     images: [sanjanaImg],
   },
   {
-    name: 'Shreya Sankar',
-    title: 'Designing with Users, not For Them',
+    name: 'Shreya Shankar',
+    title: 'Designing for Trust with Your Users',
     description:
       "Shreya is a self-taught designer from Duke with majors in Mechanical Engineering and Visual Arts. Currently, she designs for Uber’s innovation team/rider labs. She works with a small group of designers, engineers, and thinkers who experiment on nontraditional products and ways to help the Uber vision grow with people’s evolving needs. Simply put, it's a never-ending startup focused on getting the products to the people. Prior, she was part of the team that rebranded the digital presence of India’s largest car manufacturer with one of the country’s first design studios.Ideate especially holds a special place in her heart because it's where she first discovered her love for product design, and is super excited to come back and speak.",
     images: [shreyaImg],

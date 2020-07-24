@@ -7,7 +7,7 @@ export default [
         start: '12:00PM',
         end:'12:30PM EST',
         name: 'Opening Ceremony',
-        description: 'Welcome to Ideate! Will be livestreamed on Youtube',
+        description: 'Welcome to Ideate!',
         link:'https://duke.zoom.us/my/ideate2',
         additional:'',
       },
@@ -17,7 +17,7 @@ export default [
         name: 'Keynote Speaker: Erin McCue',
         description: '',
         link:'https://duke.zoom.us/my/ideate2',
-        additional:'',
+        additional:'A fellow designer once told me that Product Design is a team sport. How can we bring together the expertise, perspectives, and personalities of a team to make stuff and have fun doing it?',
       },
       {
         start: '1:00PM',
@@ -62,7 +62,7 @@ export default [
         end:'3:45PM',
         name: 'Just Like Me: Why Creators of Education Technology Should Mirror Their Users’ Backgrounds',
         description: 'with Melvin Hines',
-        link:'https://duke.zoom.us/my/ideate1',
+        link:'https://duke.zoom.us/my/ideate4',
         additional:'The recent Covid-19 pandemic and its impact on education has pushed education technology to the forefront. But as more resources and dollars get pumped into education technology, how do we know that the creators of our technology understand the users of our technology? This session discusses why it is important for those in education technology to have a connection to the students who are their users.',
       },
       // {
@@ -82,7 +82,7 @@ export default [
       {
         start: '4:15PM',
         end:'5:00PM',
-        name: 'Designing with Users, not For Them',
+        name: 'Designing for Trust with Your Users',
         description: 'with Shreya Shankar',
         link:'https://duke.zoom.us/my/ideate2',
         additional:'Join us to learn about the importance of user testing and how to engage with users throughout the whole design journey, rather than just the end. This is a talk on designing with the users rather than for them without understanding their needs properly.',
@@ -95,13 +95,6 @@ export default [
         link:'https://duke.zoom.us/my/ideate2',
         additional: 'Storytelling isn’t just for writers—it’s an essential skill for anyone in tech, especially designers. We’ll talk about why storytelling is important and how to do it, whether you’re interviewing, pitching, or putting together your design portfolio.'
       },
-      // {
-      //   start: '6:00PM',
-      //   end:'6:30PM',
-      //   name: 'How to Work Together',
-      //   description: 'with Erin McCue',
-      //   additional:'A fellow designer once told me that Product Design is a team sport. How can we bring together the expertise, perspectives, and personalities of a team to make stuff and have fun doing it?'
-      // },
       {
         start: '5:00PM',
         end:'5:45PM',
@@ -149,20 +142,22 @@ export default [
         end:'12:45PM',
         name: 'Towards the Democratization of Design with AI + Q&A',
         description: 'with Tony Beltramelli (Uizard)',
+        link:'https://duke.zoom.us/my/ideate2',
         additional:'Organizations around the world know and understand the value of design as a core part of their business, leading to the success or the failure of their products and services. However, as design processes become more complex and start involving a lot of different profiles within companies, design tools are becoming a bottleneck due to their complexity and steep learning curves. In this talk, we will explore AI’s potential to democratize design by making tools accessible to everyone in an organization, thus enabling a more seamless collaboration between designers, managers, executives, and developers.'
       },
       {
         start: '12:30PM',
         end:'4:00PM',
         name: '(Optional) Office Hours',
-        description: 'Feel free to drop in and get some last minute design help from our mentor and team',
+        description: 'Feel free to drop in and get some last minute design help from our mentors and team',
         additional:'',
       },
       {
         start: '4:00PM',
         end:'',
         name: 'Submissions Due on Devpost',
-        description: 'https://ideate.devpost.com/',
+        description: '',
+        link:'https://ideate.devpost.com/',
         additional:'',
       },
       {
