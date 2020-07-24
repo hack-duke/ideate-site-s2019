@@ -33,6 +33,5 @@ const ImgWrapper = styled.div`
 
   @media (max-width: 600px) {
     background-image: none;
-    /* background-color: ${palette.blue}; */
   }
 `;

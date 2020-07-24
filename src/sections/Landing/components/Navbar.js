@@ -53,7 +53,7 @@ const sections = [
   // }
 ];
 
-const navHeightPx = 72;
+const navHeightPx = 0;
 
 class Navbar extends Component {
   state = { activeItemID: sections[0].id };
@@ -87,7 +87,6 @@ class Navbar extends Component {
   });
 
   handleScroll = () => {
-    console.log('being triggered');
     for (const [id, itemRefNode] of [
       ...this.getItemRefNodes(sections),
     ].reverse()) {
@@ -116,6 +115,9 @@ class Navbar extends Component {
         </NavLink>
         <NavLink key={'faq'} href={`#faq`}>
           faq
+        </NavLink>
+        <NavLink key={'sponsors'} href={`#sponsors`}>
+          sponsors
         </NavLink>
       </Container>
     );
