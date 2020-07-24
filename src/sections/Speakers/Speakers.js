@@ -29,7 +29,6 @@ const Speakers = () => {
     <Section sectionColor={palette.white} sectionId="speakers">
       <MainHeader style={{ marginBottom: 30 }}>SPEAKERS</MainHeader>
       <MainContainer>
-        {/*remove this next line for actual speaker section*/}
         <SidebarImg src={leftSidebarImg} />
         <CenterContainer>{speakerBlockElems}</CenterContainer>
         <RightContainer>

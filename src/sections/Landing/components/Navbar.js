@@ -9,6 +9,7 @@ const Navbar = () => {
       <NavLink href="#speakers">speakers</NavLink>
       <NavLink href="#schedule">schedule</NavLink>
       <NavLink href="#faq">faq</NavLink>
+      <NavLink href="#sponsors">sponsors</NavLink>
     </Container>
   );
 };
