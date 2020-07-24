@@ -46,11 +46,6 @@ const sections = [
     id: 'footer',
     sectionColor: palette.black,
   },
-  // {
-  //   title: 'Sponsors',
-  //   id: 'sponsors',
-  //   sectionColor:
-  // }
 ];
 
 const navHeightPx = 0;
