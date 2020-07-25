@@ -24,7 +24,8 @@ export default [
         end:'1:30PM',
         name: 'Team Formation',
         description: 'Join us on Glimpse to find teammates',
-        additional:'',
+        link:'https://app.joinglimpse.io/room?key=AD524',
+        additional:'You\'ll be automatically paired in 1-on-1 calls for 2 minutes each where you can meet each other in person. To continue your conversation, both people have to click continue. If you hit it off, feel free to reach out on Slack or another platform to form your team!',
       },
       {
         start: '1:00PM',
