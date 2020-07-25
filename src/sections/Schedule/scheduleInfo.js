@@ -8,7 +8,7 @@ export default [
         end:'12:30PM EST',
         name: 'Opening Ceremony',
         description: 'Welcome to Ideate!',
-        link:'https://duke.zoom.us/my/ideate2',
+        link:'https://duke.zoom.us/my/ideate1',
         additional:'',
       },
       {
@@ -142,7 +142,7 @@ export default [
         end:'12:45PM',
         name: 'Towards the Democratization of Design with AI + Q&A',
         description: 'with Tony Beltramelli (Uizard)',
-        link:'https://duke.zoom.us/my/ideate2',
+        link:'https://www.youtube.com/watch?v=Ule0vtyo6SA',
         additional:'Organizations around the world know and understand the value of design as a core part of their business, leading to the success or the failure of their products and services. However, as design processes become more complex and start involving a lot of different profiles within companies, design tools are becoming a bottleneck due to their complexity and steep learning curves. In this talk, we will explore AI’s potential to democratize design by making tools accessible to everyone in an organization, thus enabling a more seamless collaboration between designers, managers, executives, and developers.'
       },
       {
@@ -167,18 +167,18 @@ export default [
         description: '',
         additional:'',
       },
-      // {
-      //   start: '6:45PM',
-      //   end:'7:15PM',
-      //   name: 'Closing Speaker: ',
-      //   description: '',
-      //   link:'https://duke.zoom.us/my/ideate1',
-      // },
+      {
+        start: '6:45PM',
+        end:'7:15PM',
+        name: 'Closing Speaker: Shuya Gong',
+        description: '',
+        link:'https://duke.zoom.us/my/ideate1',
+      },
       {
         start: '7:15PM',
         end:'8:00PM',
         name: 'Closing Ceremony & Awards',
-        description: 'Join us on Youtube to wrap up a great weekend!',
+        description: 'Join us on Zoom to wrap up a great weekend!',
         link:'https://duke.zoom.us/my/ideate1',
         additional:'',
       },
