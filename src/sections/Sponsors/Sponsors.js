@@ -9,14 +9,11 @@ import palette from 'assets/palette';
 const Sponsors = () => {
   return (
     <Section
-      sectionColor={palette.blue}
       innerContainerStyles={{ padding: 0, maxWidth: 1500 }}
       sectionId="sponsors"
     >
       <ImgWrapper>
-        <MainHeader style={{ color: palette.white}}>
-          SPONSORS
-        </MainHeader>
+        <MainHeader style={{ color: palette.white }}>SPONSORS</MainHeader>
         <SponsorContainer />
       </ImgWrapper>
     </Section>
@@ -36,6 +33,5 @@ const ImgWrapper = styled.div`
 
   @media (max-width: 600px) {
     background-image: none;
-    background-color: ${palette.blue};
   }
 `;

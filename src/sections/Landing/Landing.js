@@ -10,8 +10,9 @@ import landingBackgroundImg from './components/landing-background.svg';
 const Landing = () => {
   return (
     <Section
-      sectionColor="#333232"
+      // sectionColor="#333232"
       innerContainerStyles={{ padding: 0, maxWidth: 1500 }}
+      sectionId="landing"
     >
       <div
         style={{
