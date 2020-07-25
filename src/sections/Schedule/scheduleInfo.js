@@ -8,7 +8,7 @@ export default [
         end:'12:30PM EST',
         name: 'Opening Ceremony',
         description: 'Welcome to Ideate!',
-        link:'https://duke.zoom.us/my/ideate1',
+        link:'https://duke.zoom.us/my/ideate2',
         additional:'',
       },
       {
