@@ -140,10 +140,18 @@ export default [
       },
       {
         start: '12:00PM',
-        end:'12:45PM',
-        name: 'Towards the Democratization of Design with AI + Q&A',
+        end:'12:30PM',
+        name: 'Towards the Democratization of Design with AI',
         description: 'with Tony Beltramelli (Uizard)',
         link:'https://www.youtube.com/watch?v=Ule0vtyo6SA',
+        additional:'Organizations around the world know and understand the value of design as a core part of their business, leading to the success or the failure of their products and services. However, as design processes become more complex and start involving a lot of different profiles within companies, design tools are becoming a bottleneck due to their complexity and steep learning curves. In this talk, we will explore AI’s potential to democratize design by making tools accessible to everyone in an organization, thus enabling a more seamless collaboration between designers, managers, executives, and developers.'
+      },
+      {
+        start: '12:30PM',
+        end:'12:45PM',
+        name: 'Live Q&A',
+        description: 'with Tony Beltramelli (Uizard)',
+        link:'https://duke.zoom.us/my/ideate2',
         additional:'Organizations around the world know and understand the value of design as a core part of their business, leading to the success or the failure of their products and services. However, as design processes become more complex and start involving a lot of different profiles within companies, design tools are becoming a bottleneck due to their complexity and steep learning curves. In this talk, we will explore AI’s potential to democratize design by making tools accessible to everyone in an organization, thus enabling a more seamless collaboration between designers, managers, executives, and developers.'
       },
       {
