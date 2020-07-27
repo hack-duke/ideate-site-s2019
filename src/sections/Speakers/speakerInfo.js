@@ -16,7 +16,7 @@ import shuyaImg from './speaker-images/shuya.jpg';
 export default [
   {
     name: 'Erin McCue',
-    title: 'Keynote Speaker',
+    title: 'Opening Keynote Speaker',
     description:
       "Erin McCue, Class of '07, is a Product Design Leader with experience at Shutterstock, Etsy, and Mailchimp. She's worked on marketplaces and ecommerce, design systems, mobile apps, and marketing tools, and particularly likes working to support small businesses.",
     images: [erinImg],
