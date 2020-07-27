@@ -11,6 +11,7 @@ import shreyaImg from './speaker-images/shreya.svg';
 import taniaImg from './speaker-images/tania.svg';
 import tonyImg from './speaker-images/tony.svg';
 import whitneyImg from './speaker-images/whitney.svg';
+import shuyaImg from './speaker-images/shuya.jpg';
 
 export default [
   {
@@ -90,5 +91,12 @@ export default [
     description:
       '"My Dad says I’m always running my mouth. It’s true, I’m known for jumping into problems I know nothing about. I’m a techie, a designer, a mother and I believe in making noise and taking risks to beat disparities creatively, collectively, and quickly."',
     images: [whitneyImg],
+  },
+  {
+    name: 'Shuya Gong',
+    title: "Closing Keynote Speaker",
+    description:
+      'Hi! I’m Shuya Gong. I’m a designer at IDEO CoLab, bringing together ecosystems of organizations to use design towards facilitating shared goals, and using collaborative advantage to prototype emerging technology and social trends. My background is in mechanical engineering and venture design, and got started in my career designing around blockchain, AI, and other emerging technologies. Throughout my work as a designer, I’ve worked on the future of food, finance, fashion, fertility, and more—and the most interesting project brief I’ve ever had was designing a national holiday. My side hustles include being an instructor and fellow of innovation at Harvard School of Engineering & Applied Sciences, facilitating bioinspired executive business workshops in the Mamoni Valley in Panama, and exploring Asian American identity through traditional Chinese medicine at Agape Healing in Chicago. Down to chat anytime about game and chaos theory, collaborative models of work, living life without plastic, frameworks for everyday things, and pirate utopias. You can find me on the internet @ohmygong (Instagram + Twitter) to keep the conversation going.',
+    images: [shuyaImg],
   },
 ];
