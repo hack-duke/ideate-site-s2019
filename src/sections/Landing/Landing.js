@@ -36,11 +36,11 @@ const Landing = () => {
           >
             <IdeateLogo src={ideateLogoImg} />
             <a
-              href="https://hackduke.typeform.com/to/y9azDRuZ?fbclid=IwAR2uJtnrA-ozDXFOwzGo0hkfqD1XWsYYfOuhgTPOucUEzMPNvj9vi4uYszA"
+              href="https://ideate.devpost.com/"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <RegisterButton>Register Now</RegisterButton>
+              <RegisterButton>See Submissions</RegisterButton>
             </a>
           </div>
         </div>
