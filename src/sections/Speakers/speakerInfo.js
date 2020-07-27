@@ -11,7 +11,7 @@ import shreyaImg from './speaker-images/shreya.svg';
 import taniaImg from './speaker-images/tania.svg';
 import tonyImg from './speaker-images/tony.svg';
 import whitneyImg from './speaker-images/whitney.svg';
-import shuyaImg from './speaker-images/shuya.jpg';
+import shuyaImg from './speaker-images/shuya.svg';
 
 export default [
   {
